@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>System Monitor Report</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Computing Resource Report(autoware)</h1>
+    <h1>Information</h1>
+    <div>
+      <table border="1" style="margin-bottom: 10px">
+        <tr>
+          <th width="300px">This report was created at</th>
+          <td>2024-08-09 17:27:01.777511</td>
+        </tr>
+        <tr>
+          <th width="300px">This report was created by</th>
+          <td>
+            <a href="https://github.com/tier4/autoware.benchmark_tools/tree/main/tools/system_monitor_tracing">
+              system monitor tracing
+            </a>
+            ver.2.1.0
+          </td>
+        </tr>
+        <tr>
+          <th width="300px">Hardware name</th>
+          <td>autoware</td>
+        </tr>
+        <tr>
+          <th width="300px">Source rosbag file(s)</th>
+          <td>
+             0388f3fc-7d88-4520-b78f-b90befa92094_2024-08-06-11-15-19_p0900_3.db3 <br />
+            
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    
+    <h4 id="CPU Core Freq">CPU Core Freq</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>CPU 0: 3441.261, CPU 1: 3442.522, CPU 10: 3442.435, CPU 11: 3447.304, CPU 12: 3452.13, CPU 13: 3447.087, CPU 14: 3447.391, CPU 15: 3447.609, CPU 2: 3438.696, CPU 3: 3443.783, CPU 4: 3445.913, CPU 5: 3446.391, CPU 6: 3449.174, CPU 7: 3445.957, CPU 8: 3446.391, CPU 9: 3444.565</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>CPU 0: 20.759, CPU 1: 14.26, CPU 10: 10.13, CPU 11: 12.353, CPU 12: 13.532, CPU 13: 16.312, CPU 14: 13.937, CPU 15: 17.997, CPU 2: 16.249, CPU 3: 14.019, CPU 4: 13.628, CPU 5: 15.123, CPU 6: 13.234, CPU 7: 12.546, CPU 8: 16.025, CPU 9: 15.811</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>3496.0</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:19:01.386648</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_core_freq_fts.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_core_freq_fhist.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="CPU Core Usage">CPU Core Usage</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>CPU 0: 84.912, CPU 1: 85.205, CPU 10: 85.625, CPU 11: 84.332, CPU 12: 85.261, CPU 13: 84.896, CPU 14: 88.053, CPU 15: 86.532, CPU 2: 85.467, CPU 3: 85.422, CPU 4: 85.67, CPU 5: 85.353, CPU 6: 85.457, CPU 7: 85.413, CPU 8: 84.57, CPU 9: 85.078</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>CPU 0: 4.124, CPU 1: 4.693, CPU 10: 4.264, CPU 11: 4.948, CPU 12: 4.812, CPU 13: 5.178, CPU 14: 4.475, CPU 15: 4.034, CPU 2: 4.526, CPU 3: 4.785, CPU 4: 4.894, CPU 5: 4.411, CPU 6: 4.594, CPU 7: 3.166, CPU 8: 4.231, CPU 9: 3.862</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>98.98</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:48.178749</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_core_usage_fts.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_core_usage_fhist.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="CPU Load Average (%)">CPU Load Average (%)</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>182.026</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>4.787</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>190.31</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:19:00.026104</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_load_average_time_series.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_load_average_histogram.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="CPU Temperature (DegC)">CPU Temperature (DegC)</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>71.652</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>0.647</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>73.0</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:42.746652</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_temperature_time_series.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_temperature_histogram.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="CPU Usage (All) (%)">CPU Usage (All) (%)</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>all: 85.461, sys: 11.927, usr: 70.611</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>all: 3.955, sys: 1.597, usr: 2.789</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>94.39</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:48.178749</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_usage_all_time_series.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_usage_all_histogram.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Supplement Time series</th>
+          <th>Supplement Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_usage_usr_sys_ts.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/cpu_usage_usr_sys_hist.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="GPU Memory Usage (%)">GPU Memory Usage (%)</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>13.657</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>1.083</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>16.0</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>16</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:41.400038</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/gpu_memory_usage_time_series.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/gpu_memory_usage_histogram.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="GPU Usage (%)">GPU Usage (%)</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>31.114</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>2.587</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>36.0</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:53.422346</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/gpu_usage_time_series.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/gpu_usage_histogram.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="Memory Usage (All) (%)">Memory Usage (All) (%)</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>30.448</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>0.02</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>30.48</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:35.646411</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/memory_usage_all_time_series.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/memory_usage_all_histogram.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="Memory Usage (Swap) (MB)">Memory Usage (Swap) (MB)</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:20.635019</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/memory_usage_swap_time_series.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/memory_usage_swap_histogram.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="Process Count ()">Process Count ()</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>530.92</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>3.201</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>535.0</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:33.381903</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/process_count_time_series.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/process_count_histogram.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+  </body>
+</html>

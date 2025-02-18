@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>System Monitor Report</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Computing Resource Report(autoware)</h1>
+    <h1>Information</h1>
+    <div>
+      <table border="1" style="margin-bottom: 10px">
+        <tr>
+          <th width="300px">This report was created at</th>
+          <td>2024-08-09 17:27:01.777511</td>
+        </tr>
+        <tr>
+          <th width="300px">This report was created by</th>
+          <td>
+            <a href="https://github.com/tier4/autoware.benchmark_tools/tree/main/tools/system_monitor_tracing">
+              system monitor tracing
+            </a>
+            ver.2.1.0
+          </td>
+        </tr>
+        <tr>
+          <th width="300px">Hardware name</th>
+          <td>autoware</td>
+        </tr>
+        <tr>
+          <th width="300px">Source rosbag file(s)</th>
+          <td>
+             0388f3fc-7d88-4520-b78f-b90befa92094_2024-08-06-11-15-19_p0900_3.db3 <br />
+            
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    
+    <h4 id="HDD Usage (%)">HDD Usage (%)</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>93.0</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>93.0</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:20.797125</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/hdd_usage_time_series.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/hdd_usage_histogram.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="Network 0 (enp2s0f1) Bands">Network 0 (enp2s0f1) Bands</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>capacity: 1000.0, rx_traffic: 0.193, tx_traffic: 0.125</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>capacity: 0.0, rx_traffic: 0.098, tx_traffic: 0.08</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>1000.0</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:20.633624</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/network_0_bands_ts.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/network_0_bands_hist.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="Network 0 (enp2s0f1) Errors">Network 0 (enp2s0f1) Errors</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>collisions: 0.0, rx_errors: 0.0, tx_errors: 0.0</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>collisions: 0.0, rx_errors: 0.0, tx_errors: 0.0</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:20.633624</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/network_0_errors_ts.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/network_0_errors_hist.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <h4 id="Network 0 (enp2s0f1) Rx/Tx Usage">Network 0 (enp2s0f1) Rx/Tx Usage</h4>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>rx: 0.019, tx: 0.013</td>
+        </tr>
+        <tr>
+          <td>Std</td>
+          <td>rx: 0.01, tx: 0.008</td>
+        </tr>
+        <tr>
+          <td>Peak</td>
+          <td>0.04</td>
+        </tr>
+        <tr>
+          <td>Sample time on peak</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Date time on peak</td>
+          <td>2024-08-06 11:18:32.633800</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <th>Time series</th>
+          <th>Histogram</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/network_0_rx_tx_usage_ts.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+          <td>
+            <iframe
+              frameborder="0"
+              src="graphs/network_0_rx_tx_usage_hist.html"
+              width="700"
+              height="500"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+  </body>
+</html>

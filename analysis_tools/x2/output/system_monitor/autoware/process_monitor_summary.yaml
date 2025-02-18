@@ -1,0 +1,1922 @@
+process list:
+  100:
+    user_name: root
+    command:  ksoftirqd/14
+    mean:
+      value: 0.496
+    mean_in_count:
+      value: 6.200
+    count:
+      value: 2
+  106:
+    user_name: root
+    command:  ksoftirqd/15
+    mean:
+      value: 0.980
+    mean_in_count:
+      value: 6.125
+    count:
+      value: 4
+  13:
+    user_name: root
+    command:  ksoftirqd/0
+    mean:
+      value: 0.484
+    mean_in_count:
+      value: 6.050
+    count:
+      value: 2
+  1631:
+    user_name: autoware
+    command: /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3 
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  2173:
+    user_name: autoware
+    command: /usr/bin/gnome-shell 
+    mean:
+      value: 2.384
+    mean_in_count:
+      value: 5.960
+    count:
+      value: 10
+  25448:
+    user_name: autoware
+    command:  sed
+    mean:
+      value: 0.444
+    mean_in_count:
+      value: 11.100
+    count:
+      value: 1
+  25533:
+    user_name: autoware
+    command:  top
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  25557:
+    user_name: autoware
+    command:  top
+    mean:
+      value: 0.500
+    mean_in_count:
+      value: 12.500
+    count:
+      value: 1
+  25705:
+    user_name: autoware
+    command:  top
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  25820:
+    user_name: autoware
+    command:  top
+    mean:
+      value: 0.500
+    mean_in_count:
+      value: 12.500
+    count:
+      value: 1
+  25888:
+    user_name: autoware
+    command:  top
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  28:
+    user_name: root
+    command:  ksoftirqd/2
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  3087:
+    user_name: autoware
+    command: /usr/bin/python3 /usr/bin/x-terminal-emulator 
+    mean:
+      value: 1.904
+    mean_in_count:
+      value: 6.800
+    count:
+      value: 7
+  3188:
+    user_name: root
+    command: /home/autoware/autoware.proj/install/boot_shutdown_manager/lib/boot_shutdown_manager/boot_shutdown_manager --ros-args -r __node=boot_shutdown_manager --params-file /opt/autoware/services/boot-shutdown-manager/boot_shutdown_manager.param.yaml -r ~/output/ecu_state_summary=/pilot_auto/api/ecu/state -r ~/service/shutdown=/pilot_auto/api/ecu/shutdown -r ~/service/force_shutdown=/pilot_auto/api/ecu/force_shutdown 
+    mean:
+      value: 0.484
+    mean_in_count:
+      value: 6.050
+    count:
+      value: 2
+  3258:
+    user_name: root
+    command: /home/autoware/autoware.proj/install/boot_shutdown_interface/lib/boot_shutdown_interface/boot_shutdown_interface --ros-args -r __node=boot_shutdown_interface -r __ns=/autoware --params-file /tmp/launch_params_r__gu723 --params-file /home/autoware/autoware.proj/install/boot_shutdown_interface/share/boot_shutdown_interface/config/boot_shutdown.param.yaml -r ~/service/prepare_shutdown=/api/autoware/prepare_shutdown -r ~/service/execute_shutdown=/api/autoware/execute_shutdown -r ~/output/ecu_state=/autoware/get/ecu_state 
+    mean:
+      value: 0.248
+    mean_in_count:
+      value: 6.200
+    count:
+      value: 1
+  3268:
+    user_name: root
+    command: /home/autoware/autoware.proj/install/foxglove_bridge/lib/foxglove_bridge/foxglove_bridge --ros-args --params-file /tmp/launch_params_qsxh1w9r --params-file /tmp/launch_params_iz1i_8w_ --params-file /tmp/launch_params_i2u8na4s --params-file /tmp/launch_params_c335i2a_ --params-file /tmp/launch_params_h7nvztry --params-file /tmp/launch_params_ud_3qr50 --params-file /tmp/launch_params__yn0n4nv --params-file /tmp/launch_params_ol8p4znr --params-file /tmp/launch_params_6ht0bx4p --params-file /tmp/launch_params_5bkgbggv --params-file /tmp/launch_params_d6tv7lvc --params-file /tmp/launch_params_j29oq6wv --params-file /tmp/launch_params_1oxveft1 --params-file /tmp/launch_params_sg0trgzj --params-file /tmp/launch_params_kfdjyvjk --params-file /tmp/launch_params_tnitj9y_ --params-file /tmp/launch_params_xspn6c3e 
+    mean:
+      value: 11.536
+    mean_in_count:
+      value: 14.420
+    count:
+      value: 20
+  3373:
+    user_name: autoware
+    command: /usr/bin/python3 /opt/ros/humble/bin/ros2 launch autoware_launch autoware.launch.xml map_path=/opt/autoware/maps lanelet2_map_file=lanelet2_map.osm pointcloud_map_file=pcd vehicle_model=j6_gen1 sensor_model=aip_x2 
+    mean:
+      value: 0.460
+    mean_in_count:
+      value: 5.750
+    count:
+      value: 2
+  34:
+    user_name: root
+    command:  ksoftirqd/3
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  3504:
+    user_name: root
+    command: /opt/ota/iot-logger/venv/bin/python3 /opt/ota/iot-logger/venv/bin/iot_logging_server 
+    mean:
+      value: 1.816
+    mean_in_count:
+      value: 15.133
+    count:
+      value: 3
+  3517:
+    user_name: root
+    command: /usr/sbin/ptp4l -i enp4s0 -m -f /usr/share/doc/linuxptp/configs/tier4_normal_software_ptp.cfg 
+    mean:
+      value: 0.224
+    mean_in_count:
+      value: 5.600
+    count:
+      value: 1
+  3519:
+    user_name: telegraf
+    command: /usr/bin/telegraf -config /etc/telegraf/telegraf.conf -config-directory /etc/telegraf/telegraf.d 
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  3847:
+    user_name: root
+    command: java -Dlog.store=FILE -Dlog.store=FILE -Droot=/greengrass/v2 -jar /greengrass/v2/alts/current/distro/lib/Greengrass.jar --setup-system-service false 
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 2
+  40:
+    user_name: root
+    command:  ksoftirqd/4
+    mean:
+      value: 0.248
+    mean_in_count:
+      value: 6.200
+    count:
+      value: 1
+  4279:
+    user_name: ggc_user
+    command: /usr/bin/python3.10 -u /greengrass/v2/work/fms-prd-edge-autowaret4b-edge-proxy-server/work/worker/jmZz5JOzpzzAN-p8qrkqpCgy7SRrxCI2ckDM7xT-Q4Q/runtime/python/lambda_runtime.py --handler=entrypoint.lambda_handler -d 
+    mean:
+      value: 1.000
+    mean_in_count:
+      value: 25.000
+    count:
+      value: 1
+  4478:
+    user_name: cwpubli+
+    command: /usr/bin/python3 /opt/aws/amazon-cloudwatch-publisher/bin/amazon-cloudwatch-publisher 
+    mean:
+      value: 0.940
+    mean_in_count:
+      value: 11.750
+    count:
+      value: 2
+  4497:
+    user_name: ggc_user
+    command: python /greengrass/v2/work/fms-prd-edge-autowaret4b-edge-core/work/worker/Onfg-hjJd70_YRhVWSXQPSLu-AAm5fLpIHehYNhh0y4/lambda/initialize/../entrypoint_ros_direct.py 
+    mean:
+      value: 37.260
+    mean_in_count:
+      value: 37.260
+    count:
+      value: 25
+  46:
+    user_name: root
+    command:  ksoftirqd/5
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  4606:
+    user_name: ggc_user
+    command: python /greengrass/v2/work/fms-prd-edge-autowaret4b-edge-remote-control/work/worker/RdmBcLG3X0dTSB3n4QVZWxEyvhTwWPWzkLXd5baJD4c/lambda/handler.py 
+    mean:
+      value: 1.440
+    mean_in_count:
+      value: 7.200
+    count:
+      value: 5
+  4799:
+    user_name: autoware
+    command: /usr/bin/python3 -c fromros2cli.daemon.daemonizeimportmain;main() --name ros2-daemon --ros-domain-id 1 --rmw-implementation rmw_cyclonedds_cpp 
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  5164:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pointcloud_container -r __ns=/ -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 184.616
+    mean_in_count:
+      value: 184.616
+    count:
+      value: 25
+  5166:
+    user_name: autoware
+    command: /opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node=robot_state_publisher -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_7696zcjq 
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  5168:
+    user_name: autoware
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/j6 -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_nt9sgyq6 
+    mean:
+      value: 0.968
+    mean_in_count:
+      value: 6.050
+    count:
+      value: 4
+  5170:
+    user_name: autoware
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_sender_node_exe --ros-args -r __node=socket_can_sender -r __ns=/j6 -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_lef7qtbv 
+    mean:
+      value: 0.496
+    mean_in_count:
+      value: 6.200
+    count:
+      value: 2
+  5172:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/j6_can_interface/lib/j6_can_interface/j6_can_interface --ros-args -r __node=j6_can_interface -r __ns=/j6 -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/j6_can_interface/share/j6_can_interface/config/j6_can_interface.param.yaml -r input/from_can_bus=from_can_bus -r input/b0_command=can/command/b0_command -r input/b1_command=can/command/b1_command -r input/m0_command=can/command/m0_command -r input/m1_command=can/command/m1_command -r output/to_can_bus=to_can_bus -r output/b0_status=can/status/b0_status -r output/b1_status=can/status/b1_status -r output/m0_status=can/status/m0_status -r output/m1_status=can/status/m1_status -r output/m2_status=can/status/m2_status -r output/m3_status=can/status/m3_status -r output/d0_diagnostics=can/diagnostics/d0_diagnostics -r output/t1_debug=can/debug/t1_debug -r output/t2_debug=can/debug/t2_debug 
+    mean:
+      value: 4.576
+    mean_in_count:
+      value: 8.171
+    count:
+      value: 14
+  5174:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/j6_interface/lib/j6_interface/j6_interface --ros-args -r __node=j6_interface -r __ns=/j6 -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/j6_interface/share/j6_interface/config/j6_interface.param.yaml --params-file /home/autoware/autoware.proj/install/j6_interface/share/j6_interface/config/j6_diagnostics.param.yaml -r input/b0_status=can/status/b0_status -r input/b1_status=can/status/b1_status -r input/m0_status=can/status/m0_status -r input/m1_status=can/status/m1_status -r input/m2_status=can/status/m2_status -r input/m3_status=can/status/m3_status -r input/d0_diagnostics=can/diagnostics/d0_diagnostics -r input/t1_debug=can/debug/t1_debug -r input/t2_debug=can/debug/t2_debug -r input/ackermann_control_cmd=/control/command/control_cmd -r input/actuation_cmd=/control/command/actuation_cmd -r input/turn_indicators_cmd=/control/command/turn_indicators_cmd -r input/horn_cmd=/control/command/horn_cmd -r input/headlights_cmd=/control/command/headlights_cmd -r input/wipers_cmd=/control/command/wipers_cmd -r input/harzard_cmd=/control/command/hazard_lights_cmd -r input/control_mode_cmd=/control/control_mode_request -r input/set_door=/api/vehicle/set/door -r output/b0_command=can/command/b0_command -r output/b1_command=can/command/b1_command -r output/m0_command=can/command/m0_command -r output/m1_command=can/command/m1_command -r output/control_mode_report=/vehicle/status/control_mode -r output/velocity_report=/vehicle/status/velocity_status -r output/steering_report=/vehicle/status/steering_status -r output/gear_report=/vehicle/status/gear_status -r output/turn_indicators_report=/vehicle/status/turn_indicators_status -r output/hazard_lights_report=/vehicle/status/hazard_lights_status -r output/door_status=/vehicle/status/door_status -r output/horn_status=/vehicle/status/horn_status -r output/headlights_status=/vehicle/status/headlights_status -r output/room_lights_status=/vehicle/status/room_lights_status -r output/wipers_status=/vehicle/status/wipers_status -r output/kneeling_status=/vehicle/status/kneeling_status -r output/emergency_button_status=/vehicle/status/emergency_button_status -r output/wheel_speed_status=/vehicle/status/wheel_speed_status -r output/steering_wheel_status=/vehicle/status/steering_wheel_status -r output/steering_status_sub=/vehicle/status/steering_status_sub -r output/steering_wheel_status_sub=/vehicle/status/steering_wheel_status_sub -r output/override_status=/vehicle/status/override_status -r output/parking_brake_status=/vehicle/status/parking_brake_status -r output/j6_debug_report=/vehicle/status/j6_debug_report 
+    mean:
+      value: 6.816
+    mean_in_count:
+      value: 9.467
+    count:
+      value: 18
+  5176:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/autoware_raw_vehicle_cmd_converter/lib/autoware_raw_vehicle_cmd_converter/autoware_raw_vehicle_cmd_converter_node --ros-args -r __node=raw_vehicle_cmd_converter -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_ii8hx7p9 -r ~/input/control_cmd=/control/command/control_cmd -r ~/input/odometry=/localization/kinematic_state -r ~/input/steering=/vehicle/status/steering_status -r ~/output/actuation_cmd=/control/command/actuation_cmd 
+    mean:
+      value: 0.732
+    mean_in_count:
+      value: 6.100
+    count:
+      value: 3
+  5178:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=system_monitor_container -r __ns=/system/system_monitor/system_monitor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 12.936
+    mean_in_count:
+      value: 15.400
+    count:
+      value: 21
+  5180:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/duplicated_node_checker/lib/duplicated_node_checker/duplicated_node_checker_node --ros-args -r __node=duplicated_node_checker -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/system/duplicated_node_checker/duplicated_node_checker.param.yaml 
+    mean:
+      value: 0.708
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 3
+  5184:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container --ros-args -r __node=container -r __ns=/system/component_state_monitor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 7.688
+    mean_in_count:
+      value: 10.678
+    count:
+      value: 18
+  5188:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_pointcloud_map -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_pom43fse --params-file /tmp/launch_params_i2f_qz_h --params-file /tmp/launch_params_6758fz1a --params-file /tmp/launch_params_tyl25kzb --params-file /tmp/launch_params_06adh3tc --params-file /tmp/launch_params_h47y2qjq --params-file /tmp/launch_params_g62phiqf --params-file /tmp/launch_params_d12_aj_h --params-file /tmp/launch_params_ewhcd69i 
+    mean:
+      value: 0.996
+    mean_in_count:
+      value: 8.300
+    count:
+      value: 3
+  5192:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_pose_twist_fusion_filter_pose -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_nmsz_tft --params-file /tmp/launch_params_vg4t9blq --params-file /tmp/launch_params_z0k22p79 --params-file /tmp/launch_params_ihec4gdn --params-file /tmp/launch_params_ovv8pi2p --params-file /tmp/launch_params_wu2qrd6a --params-file /tmp/launch_params_0zgy4njr --params-file /tmp/launch_params_rlnto6a2 --params-file /tmp/launch_params_b83x49jx 
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  5194:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_obstacle_segmentation_pointcloud -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_iw6um733 --params-file /tmp/launch_params_5e18fxdg --params-file /tmp/launch_params_fnuvcx5b --params-file /tmp/launch_params_aapzwiyr --params-file /tmp/launch_params_ysjktwxl --params-file /tmp/launch_params_8kp_0pq3 --params-file /tmp/launch_params_vps5zf6s --params-file /tmp/launch_params_9kmyk6qh --params-file /tmp/launch_params_1qkti7a1 
+    mean:
+      value: 0.248
+    mean_in_count:
+      value: 6.200
+    count:
+      value: 1
+  5196:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_object_recognition_objects -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_paaf_r7o --params-file /tmp/launch_params_htlw_ywp --params-file /tmp/launch_params_b989366p --params-file /tmp/launch_params_70szssd5 --params-file /tmp/launch_params_ry2kcutd --params-file /tmp/launch_params_n2ucbwjy --params-file /tmp/launch_params_l6u5xaj3 --params-file /tmp/launch_params_g_jxdmcf --params-file /tmp/launch_params_j1ysemka 
+    mean:
+      value: 0.496
+    mean_in_count:
+      value: 6.200
+    count:
+      value: 2
+  5201:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_traffic_light_recognition_traffic_signals -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_ryc372v5 --params-file /tmp/launch_params_81fipjrj --params-file /tmp/launch_params_y2p_i_i2 --params-file /tmp/launch_params_21uo_aej --params-file /tmp/launch_params_3cro4p0d --params-file /tmp/launch_params_0hy3fird --params-file /tmp/launch_params_khyfxv6w --params-file /tmp/launch_params_9ri_3dbb --params-file /tmp/launch_params_dgai3ojq 
+    mean:
+      value: 0.248
+    mean_in_count:
+      value: 6.200
+    count:
+      value: 1
+  5213:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_mission_planning_route -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params__rs64n4p --params-file /tmp/launch_params_yc10cyi6 --params-file /tmp/launch_params_buales5e --params-file /tmp/launch_params_c498agj8 --params-file /tmp/launch_params_koa6_jn0 --params-file /tmp/launch_params_7uywy900 --params-file /tmp/launch_params_6bfyf3kk --params-file /tmp/launch_params_bgerpbqn --params-file /tmp/launch_params_y7n7s_no 
+    mean:
+      value: 0.916
+    mean_in_count:
+      value: 11.450
+    count:
+      value: 2
+  5253:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_scenario_planning_trajectory -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_xpck1g2j --params-file /tmp/launch_params_ohr8qajg --params-file /tmp/launch_params_2e8rgfzu --params-file /tmp/launch_params_kwc5nrjg --params-file /tmp/launch_params_1j30a1wr --params-file /tmp/launch_params_d_f9wr9k --params-file /tmp/launch_params_si0t32hb --params-file /tmp/launch_params_ivjdluh8 --params-file /tmp/launch_params_85a5fsr9 
+    mean:
+      value: 0.224
+    mean_in_count:
+      value: 5.600
+    count:
+      value: 1
+  5311:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_trajectory_follower_control_cmd -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_1b468qwg --params-file /tmp/launch_params_wid_2rv8 --params-file /tmp/launch_params_g0257rqm --params-file /tmp/launch_params_jo817_rp --params-file /tmp/launch_params_dn1uc3vs --params-file /tmp/launch_params_ud0hpuge --params-file /tmp/launch_params_zjlmb5__ --params-file /tmp/launch_params_pe2d1_e1 --params-file /tmp/launch_params_l5t4pvl5 
+    mean:
+      value: 0.224
+    mean_in_count:
+      value: 5.600
+    count:
+      value: 1
+  5343:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_control_command_control_cmd -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_lnxa541e --params-file /tmp/launch_params_hx1ytelh --params-file /tmp/launch_params_t8g48rtv --params-file /tmp/launch_params_qkug7kn6 --params-file /tmp/launch_params_l6uuuohw --params-file /tmp/launch_params_dyoh2b6p --params-file /tmp/launch_params_k1b6c2qg --params-file /tmp/launch_params_ocgbb6y9 --params-file /tmp/launch_params_p0bm_t5c 
+    mean:
+      value: 0.732
+    mean_in_count:
+      value: 6.100
+    count:
+      value: 3
+  5345:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_vehicle_status_velocity_status -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_6pj0z70w --params-file /tmp/launch_params_ilnde5pz --params-file /tmp/launch_params_y81v30pe --params-file /tmp/launch_params_cka4hwsj --params-file /tmp/launch_params_5pd16u4s --params-file /tmp/launch_params_8y8xehjq --params-file /tmp/launch_params_bgujprm9 --params-file /tmp/launch_params_vkbeopzt --params-file /tmp/launch_params_s58wnmq4 
+    mean:
+      value: 0.484
+    mean_in_count:
+      value: 6.050
+    count:
+      value: 2
+  5347:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_vehicle_status_steering_status -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_5vjf5sue --params-file /tmp/launch_params_77su5abc --params-file /tmp/launch_params_8ci2a6ws --params-file /tmp/launch_params_8qu66ln4 --params-file /tmp/launch_params_ayt0vbdm --params-file /tmp/launch_params_5esk2oy3 --params-file /tmp/launch_params_z27wavqj --params-file /tmp/launch_params_o0sbb66v --params-file /tmp/launch_params_89wq8omq 
+    mean:
+      value: 0.248
+    mean_in_count:
+      value: 6.200
+    count:
+      value: 1
+  5368:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_system_emergency_control_cmd -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_o4jfjwlv --params-file /tmp/launch_params_f1rbr2jt --params-file /tmp/launch_params_ruqxwqey --params-file /tmp/launch_params_de6fu0il --params-file /tmp/launch_params_ppmmqqfj --params-file /tmp/launch_params_52wp2rxp --params-file /tmp/launch_params_kd0m68fa --params-file /tmp/launch_params_li2vg3yj --params-file /tmp/launch_params_xinpctck 
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  5381:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_transform_map_to_base_link -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_xyfeoaeb --params-file /tmp/launch_params_j7qs_y7u --params-file /tmp/launch_params_oouadyk6 --params-file /tmp/launch_params_cxhumi20 --params-file /tmp/launch_params_3qnxij9c --params-file /tmp/launch_params_gfqieu99 --params-file /tmp/launch_params_lig4ep83 --params-file /tmp/launch_params_g33128sn --params-file /tmp/launch_params_75o567pn --params-file /tmp/launch_params_juu5yupt 
+    mean:
+      value: 1.636
+    mean_in_count:
+      value: 8.180
+    count:
+      value: 5
+  5419:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/aggregator_node --ros-args -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/config/default.param.yaml --params-file /tmp/launch_params_ov47lxtj 
+    mean:
+      value: 10.956
+    mean_in_count:
+      value: 11.909
+    count:
+      value: 23
+  5491:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/front_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 42.280
+    mean_in_count:
+      value: 42.280
+    count:
+      value: 25
+  5497:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/front_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 21.020
+    mean_in_count:
+      value: 21.020
+    count:
+      value: 25
+  5510:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/left_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 48.672
+    mean_in_count:
+      value: 48.672
+    count:
+      value: 25
+  5591:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/left_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 21.716
+    mean_in_count:
+      value: 21.716
+    count:
+      value: 25
+  5619:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/right_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 35.960
+    mean_in_count:
+      value: 35.960
+    count:
+      value: 25
+  5669:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/right_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 24.792
+    mean_in_count:
+      value: 24.792
+    count:
+      value: 25
+  5704:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/rear_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 35.276
+    mean_in_count:
+      value: 35.276
+    count:
+      value: 25
+  5716:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/rear_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 23.380
+    mean_in_count:
+      value: 23.380
+    count:
+      value: 25
+  5736:
+    user_name: autoware
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/imu/tamagawa -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_ybrnewh8 
+    mean:
+      value: 3.140
+    mean_in_count:
+      value: 9.812
+    count:
+      value: 8
+  5738:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/tamagawa_imu_driver/lib/tamagawa_imu_driver/tag_can_driver --ros-args -r __node=tag_can_driver -r __ns=/sensing/imu/tamagawa -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_xxivmk2v -r /can/imu=from_can_bus -r imu/data_raw=imu_raw 
+    mean:
+      value: 2.612
+    mean_in_count:
+      value: 9.329
+    count:
+      value: 7
+  5746:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/imu_corrector/lib/imu_corrector/imu_corrector_node --ros-args -r __ns=/sensing/imu -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/individual_params/share/individual_params/config/j6_gen1_02/aip_x2/imu_corrector.param.yaml -r input=tamagawa/imu_raw -r output=imu_data 
+    mean:
+      value: 0.460
+    mean_in_count:
+      value: 5.750
+    count:
+      value: 2
+  5764:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/imu_corrector/lib/imu_corrector/gyro_bias_estimator_node --ros-args -r __ns=/sensing/imu -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/aip_x2_launch/share/aip_x2_launch/config/gyro_bias_estimator.param.yaml --params-file /home/autoware/autoware.proj/install/individual_params/share/individual_params/config/j6_gen1_02/aip_x2/imu_corrector.param.yaml -r ~/input/imu_raw=tamagawa/imu_raw -r ~/input/odom=/localization/kinematic_state -r ~/output/gyro_bias=gyro_bias 
+    mean:
+      value: 0.224
+    mean_in_count:
+      value: 5.600
+    count:
+      value: 1
+  5766:
+    user_name: autoware
+    command: /opt/ros/humble/lib/septentrio_gnss_driver/septentrio_gnss_driver_node --ros-args -r __node=septentrio -r __ns=/sensing/gnss -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/aip_x2_launch/share/aip_x2_launch/config/mosaic_x5_rover.param.yaml -r navsatfix=~/nav_sat_fix -r poscovgeodetic=~/poscovgeodetic -r pvtgeodetic=~/pvtgeodetic 
+    mean:
+      value: 0.892
+    mean_in_count:
+      value: 11.150
+    count:
+      value: 2
+  58:
+    user_name: root
+    command:  ksoftirqd/7
+    mean:
+      value: 0.224
+    mean_in_count:
+      value: 5.600
+    count:
+      value: 1
+  5849:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/gnss_poser/lib/gnss_poser/gnss_poser --ros-args -r __node=gnss_poser -r __ns=/sensing/gnss -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/gnss_poser/share/gnss_poser/config/gnss_poser.param.yaml -r fix=septentrio/nav_sat_fix -r autoware_orientation=/autoware_orientation -r gnss_pose=pose -r gnss_pose_cov=pose_with_covariance -r gnss_fixed=fixed 
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  5882:
+    user_name: autoware
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_n_sbdypd 
+    mean:
+      value: 4.948
+    mean_in_count:
+      value: 11.245
+    count:
+      value: 11
+  5885:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_o2zn0oys --params-file /tmp/launch_params_2tqmxux6 --params-file /tmp/launch_params__vndrobx --params-file /tmp/launch_params_zupf9ef8 --params-file /tmp/launch_params_re65shx6 --params-file /tmp/launch_params__gs9ijam -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    mean:
+      value: 4.012
+    mean_in_count:
+      value: 12.537
+    count:
+      value: 8
+  5930:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/radar_tracks_msgs_converter/lib/radar_tracks_msgs_converter/radar_tracks_msgs_converter_node --ros-args -r __node=radar_tracks_msgs_converter -r __ns=/sensing/radar/front_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/common_sensor_launch/share/common_sensor_launch/config/radar_tracks_msgs_converter.param.yaml -r ~/input/radar_objects=filtered_objects -r ~/input/odometry=/localization/kinematic_state -r ~/output/radar_detected_objects=detected_objects -r ~/output/radar_tracked_objects=tracked_objects 
+    mean:
+      value: 0.224
+    mean_in_count:
+      value: 5.600
+    count:
+      value: 1
+  5932:
+    user_name: autoware
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_492a9iir 
+    mean:
+      value: 7.204
+    mean_in_count:
+      value: 12.007
+    count:
+      value: 15
+  5937:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_f7f5nqqa --params-file /tmp/launch_params_1p9g14qf --params-file /tmp/launch_params_qyom9v23 --params-file /tmp/launch_params_nqv5xdxd --params-file /tmp/launch_params_dgcjrx14 --params-file /tmp/launch_params_7t7kzwhz -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    mean:
+      value: 4.736
+    mean_in_count:
+      value: 13.156
+    count:
+      value: 9
+  5968:
+    user_name: autoware
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/rear_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_kqu2q8h9 
+    mean:
+      value: 1.444
+    mean_in_count:
+      value: 12.033
+    count:
+      value: 3
+  5970:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/rear_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_4rw95n5a --params-file /tmp/launch_params_c1y_0xlx --params-file /tmp/launch_params_n2elk3g0 --params-file /tmp/launch_params_w0xurxf5 --params-file /tmp/launch_params_44omh7pp --params-file /tmp/launch_params_dka4ccsg -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  5984:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/radar_tracks_msgs_converter/lib/radar_tracks_msgs_converter/radar_tracks_msgs_converter_node --ros-args -r __node=radar_tracks_msgs_converter -r __ns=/sensing/radar/rear_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/common_sensor_launch/share/common_sensor_launch/config/radar_tracks_msgs_converter.param.yaml -r ~/input/radar_objects=filtered_objects -r ~/input/odometry=/localization/kinematic_state -r ~/output/radar_detected_objects=detected_objects -r ~/output/radar_tracked_objects=tracked_objects 
+    mean:
+      value: 0.892
+    mean_in_count:
+      value: 11.150
+    count:
+      value: 2
+  5987:
+    user_name: autoware
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/rear_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_qvx94vyp 
+    mean:
+      value: 6.112
+    mean_in_count:
+      value: 11.754
+    count:
+      value: 13
+  5989:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/rear_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_takudo0u --params-file /tmp/launch_params_4o4esw7a --params-file /tmp/launch_params_7k0eq_au --params-file /tmp/launch_params_uj0957nf --params-file /tmp/launch_params_0y8jq6ov --params-file /tmp/launch_params_z89v_ycz -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    mean:
+      value: 8.060
+    mean_in_count:
+      value: 13.433
+    count:
+      value: 15
+  6020:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/radar_tracks_msgs_converter/lib/radar_tracks_msgs_converter/radar_tracks_msgs_converter_node --ros-args -r __node=radar_tracks_msgs_converter -r __ns=/sensing/radar/rear_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/common_sensor_launch/share/common_sensor_launch/config/radar_tracks_msgs_converter.param.yaml -r ~/input/radar_objects=filtered_objects -r ~/input/odometry=/localization/kinematic_state -r ~/output/radar_detected_objects=detected_objects -r ~/output/radar_tracked_objects=tracked_objects 
+    mean:
+      value: 1.392
+    mean_in_count:
+      value: 11.600
+    count:
+      value: 3
+  6063:
+    user_name: autoware
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/rear_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_620y69bo 
+    mean:
+      value: 2.888
+    mean_in_count:
+      value: 12.033
+    count:
+      value: 6
+  6073:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/rear_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_4ohblaoy --params-file /tmp/launch_params_lk4hotas --params-file /tmp/launch_params_hd_k7czn --params-file /tmp/launch_params_9yeg48g7 --params-file /tmp/launch_params_2kn64_a3 --params-file /tmp/launch_params_bbkly8a8 -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    mean:
+      value: 3.564
+    mean_in_count:
+      value: 12.729
+    count:
+      value: 7
+  6135:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/radar_tracks_noise_filter/lib/radar_tracks_noise_filter/radar_tracks_noise_filter_node --ros-args -r __node=radar_tracks_noise_filter -r __ns=/sensing/radar/rear_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/common_sensor_launch/share/common_sensor_launch/config/radar_tracks_noise_filter.param.yaml -r ~/input/tracks=objects_raw -r ~/output/noise_tracks=noise_objects -r ~/output/filtered_tracks=filtered_objects 
+    mean:
+      value: 0.500
+    mean_in_count:
+      value: 12.500
+    count:
+      value: 1
+  6149:
+    user_name: autoware
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_w9k07z13 
+    mean:
+      value: 5.280
+    mean_in_count:
+      value: 12.000
+    count:
+      value: 11
+  6161:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_79axarr7 --params-file /tmp/launch_params_45_zd6kk --params-file /tmp/launch_params_diaf4m11 --params-file /tmp/launch_params_4dddxg7u --params-file /tmp/launch_params_pgztmysx --params-file /tmp/launch_params_9qg45192 -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    mean:
+      value: 5.252
+    mean_in_count:
+      value: 11.936
+    count:
+      value: 11
+  6163:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/radar_tracks_noise_filter/lib/radar_tracks_noise_filter/radar_tracks_noise_filter_node --ros-args -r __node=radar_tracks_noise_filter -r __ns=/sensing/radar/front_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/common_sensor_launch/share/common_sensor_launch/config/radar_tracks_noise_filter.param.yaml -r ~/input/tracks=objects_raw -r ~/output/noise_tracks=noise_objects -r ~/output/filtered_tracks=filtered_objects 
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  6165:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/radar_tracks_msgs_converter/lib/radar_tracks_msgs_converter/radar_tracks_msgs_converter_node --ros-args -r __node=radar_tracks_msgs_converter -r __ns=/sensing/radar/front_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/common_sensor_launch/share/common_sensor_launch/config/radar_tracks_msgs_converter.param.yaml -r ~/input/radar_objects=filtered_objects -r ~/input/odometry=/localization/kinematic_state -r ~/output/radar_detected_objects=detected_objects -r ~/output/radar_tracked_objects=tracked_objects 
+    mean:
+      value: 0.944
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 2
+  6168:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/simple_object_merger/lib/simple_object_merger/simple_object_merger_node --ros-args -r __node=simple_object_merger -r __ns=/sensing/radar -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/aip_x2_launch/share/aip_x2_launch/config/simple_object_merger.param.yaml -r ~/output/objects=detected_objects 
+    mean:
+      value: 6.936
+    mean_in_count:
+      value: 12.386
+    count:
+      value: 14
+  6180:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/vehicle_velocity_converter/lib/vehicle_velocity_converter/vehicle_velocity_converter_node --ros-args -r __ns=/sensing -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/individual_params/share/individual_params/config/j6_gen1_02/aip_x2/vehicle_velocity_converter.param.yaml -r velocity_status=/vehicle/status/velocity_status -r twist_with_covariance=/sensing/vehicle_velocity_converter/twist_with_covariance 
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  6192:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/ndt_scan_matcher/lib/ndt_scan_matcher/ndt_scan_matcher_node --ros-args -r __node=ndt_scan_matcher -r __ns=/localization/pose_estimator -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/localization/ndt_scan_matcher/ndt_scan_matcher.param.yaml -r points_raw=/localization/util/downsample/pointcloud -r ekf_pose_with_covariance=/localization/pose_twist_fusion_filter/biased_pose_with_covariance -r regularization_pose_with_covariance=/sensing/gnss/pose_with_covariance -r trigger_node_srv=/localization/pose_estimator/trigger_node -r ndt_pose=/localization/pose_estimator/pose -r ndt_pose_with_covariance=/localization/pose_estimator/pose_with_covariance -r pcd_loader_service=/map/get_differential_pointcloud_map 
+    mean:
+      value: 22.156
+    mean_in_count:
+      value: 22.156
+    count:
+      value: 25
+  6202:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/gyro_odometer/lib/gyro_odometer/gyro_odometer_node --ros-args -r __ns=/localization/twist_estimator -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/gyro_odometer/share/gyro_odometer/config/gyro_odometer.param.yaml -r vehicle/twist_with_covariance=/sensing/vehicle_velocity_converter/twist_with_covariance -r imu=/sensing/imu/imu_data -r twist_raw=gyro_twist_raw -r twist_with_covariance_raw=/localization/twist_estimator/twist_with_covariance_raw -r twist=gyro_twist -r twist_with_covariance=/localization/twist_estimator/twist_with_covariance 
+    mean:
+      value: 2.892
+    mean_in_count:
+      value: 12.050
+    count:
+      value: 6
+  6206:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/pose_initializer/lib/pose_initializer/pose_initializer_node --ros-args -r __ns=/localization/util -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_vvpmpiqy --params-file /tmp/launch_params_5v3byzjd --params-file /tmp/launch_params_tociwbz1 -r yabloc_align=/localization/pose_estimator/yabloc/initializer/yabloc_align_srv -r ndt_align=/localization/pose_estimator/ndt_align_srv -r stop_check_twist=/sensing/vehicle_velocity_converter/twist_with_covariance -r gnss_pose_cov=/sensing/gnss/pose_with_covariance -r pose_reset=/initialpose3d -r ekf_trigger_node=/localization/pose_twist_fusion_filter/trigger_node -r ndt_trigger_node=/localization/pose_estimator/trigger_node -r ~/pointcloud_map=/map/pointcloud_map -r ~/partial_map_load=/map/get_partial_pointcloud_map -r ~/vector_map=/map/vector_map 
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  6211:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/ekf_localizer/lib/ekf_localizer/ekf_localizer_node --ros-args -r __ns=/localization/pose_twist_fusion_filter -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/localization/ekf_localizer.param.yaml -r in_pose_with_covariance=/localization/pose_estimator/pose_with_covariance -r in_twist_with_covariance=/localization/twist_estimator/twist_with_covariance -r initialpose=/initialpose3d -r trigger_node_srv=trigger_node -r ekf_odom=kinematic_state -r ekf_pose=pose -r ekf_pose_with_covariance=/localization/pose_with_covariance -r ekf_biased_pose=biased_pose -r ekf_biased_pose_with_covariance=biased_pose_with_covariance -r ekf_twist=twist -r ekf_twist_with_covariance=twist_with_covariance 
+    mean:
+      value: 16.660
+    mean_in_count:
+      value: 16.660
+    count:
+      value: 25
+  6324:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container --ros-args -r __node=euclidean_cluster_container -r __ns=/perception/object_recognition/detection/clustering -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 1.420
+    mean_in_count:
+      value: 11.833
+    count:
+      value: 3
+  6329:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/image_projection_based_fusion/lib/image_projection_based_fusion/roi_cluster_fusion_node --ros-args -r __node=roi_cluster_fusion -r __ns=/perception/object_recognition/detection/clustering/camera_lidar_fusion -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_opo430ro --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/image_projection_based_fusion/roi_cluster_fusion.param.yaml --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/image_projection_based_fusion/fusion_common.param.yaml --params-file /tmp/launch_params__mdaqwhe --params-file /tmp/launch_params_iroww945 --params-file /tmp/launch_params_u672jyzh --params-file /tmp/launch_params_4q7_wjr9 --params-file /tmp/launch_params_1spzsi4c --params-file /tmp/launch_params_75cevy0m --params-file /tmp/launch_params_v4oim1w4 --params-file /tmp/launch_params_2yr0cwox --params-file /tmp/launch_params_5pkg3lhw --params-file /tmp/launch_params_8g6ac3rt --params-file /tmp/launch_params_pkqtoko7 --params-file /tmp/launch_params_kszncxch --params-file /tmp/launch_params_c_ncil50 --params-file /tmp/launch_params__z34b9zh --params-file /tmp/launch_params_msdswnrf --params-file /tmp/launch_params_4zerbvne --params-file /tmp/launch_params_v1pxr07u --params-file /tmp/launch_params_8bfxh9j0 --params-file /tmp/launch_params_7scnw55z --params-file /tmp/launch_params_7o0hsn5g --params-file /tmp/launch_params_cz3ce3ka --params-file /tmp/launch_params_5s1k40j8 --params-file /tmp/launch_params_k_zw4bvl --params-file /tmp/launch_params_q2tjv8na -r input=/perception/object_recognition/detection/clustering/clusters -r output=clusters 
+    mean:
+      value: 0.972
+    mean_in_count:
+      value: 12.150
+    count:
+      value: 2
+  6339:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/shape_estimation/lib/shape_estimation/shape_estimation --ros-args -r __node=shape_estimation -r __ns=/perception/object_recognition/detection/clustering/camera_lidar_fusion -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/shape_estimation/share/shape_estimation/config/shape_estimation.param.yaml -r input=filtered/clusters -r objects=objects_with_feature 
+    mean:
+      value: 0.632
+    mean_in_count:
+      value: 15.800
+    count:
+      value: 1
+  6358:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/radar_crossing_objects_noise_filter/lib/radar_crossing_objects_noise_filter/radar_crossing_objects_noise_filter_node --ros-args -r __node=radar_crossing_objects_noise_filter -r __ns=/perception/object_recognition/detection/radar -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/radar_crossing_objects_noise_filter/radar_crossing_objects_noise_filter.param.yaml -r ~/input/objects=/sensing/radar/detected_objects -r ~/output/noise_objects=noise_objects -r ~/output/filtered_objects=noise_filtered_objects 
+    mean:
+      value: 5.528
+    mean_in_count:
+      value: 12.564
+    count:
+      value: 11
+  6361:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/object_velocity_splitter/lib/object_velocity_splitter/object_velocity_splitter_node --ros-args -r __node=object_velocity_splitter -r __ns=/perception/object_recognition/detection/radar -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/object_velocity_splitter/object_velocity_splitter_radar_fusion.param.yaml -r ~/input/objects=noise_filtered_objects -r ~/output/low_speed_objects=low_speed_objects -r ~/output/high_speed_objects=high_speed_objects 
+    mean:
+      value: 2.776
+    mean_in_count:
+      value: 11.567
+    count:
+      value: 6
+  6389:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/detected_object_validation/lib/detected_object_validation/object_lanelet_filter_node --ros-args -r __node=object_lanelet_filter -r __ns=/perception/object_recognition/detection/radar -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/detected_object_validation/share/detected_object_validation/config/object_lanelet_filter.param.yaml -r input/vector_map=/map/vector_map -r input/object=far_high_speed_objects -r output/object=lanelet_filtered_objects 
+    mean:
+      value: 19.544
+    mean_in_count:
+      value: 19.544
+    count:
+      value: 25
+  64:
+    user_name: root
+    command:  ksoftirqd/8
+    mean:
+      value: 0.460
+    mean_in_count:
+      value: 5.750
+    count:
+      value: 2
+  6514:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/detection_by_tracker/lib/detection_by_tracker/detection_by_tracker --ros-args -r __node=detection_by_tracker_node -r __ns=/perception/object_recognition/detection/detection_by_tracker -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/detection_by_tracker/detection_by_tracker.param.yaml -r ~/input/tracked_objects=/perception/object_recognition/tracking/objects -r ~/input/initial_objects=/perception/object_recognition/detection/clustering/objects_with_feature -r ~/output=objects 
+    mean:
+      value: 1.104
+    mean_in_count:
+      value: 13.800
+    count:
+      value: 2
+  6516:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/image_projection_based_fusion/lib/image_projection_based_fusion/roi_detected_object_fusion_node --ros-args -r __node=roi_detected_object_fusion -r __ns=/perception/object_recognition/detection -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_z8gxo4dw --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/image_projection_based_fusion/fusion_common.param.yaml --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/image_projection_based_fusion/roi_detected_object_fusion.param.yaml --params-file /tmp/launch_params_iortx1ca --params-file /tmp/launch_params_ikg4hwud --params-file /tmp/launch_params_xtiv04i7 --params-file /tmp/launch_params_cv_ml8gy --params-file /tmp/launch_params_bkyke21t --params-file /tmp/launch_params_hciuw04m --params-file /tmp/launch_params_kngm98ca --params-file /tmp/launch_params_bhstl0ry --params-file /tmp/launch_params_ukfyemkb --params-file /tmp/launch_params_qqy8_9xg --params-file /tmp/launch_params_14p41gvl --params-file /tmp/launch_params_6jov0938 --params-file /tmp/launch_params_xof82hrw --params-file /tmp/launch_params_vcm4uayw --params-file /tmp/launch_params_r2_s_rys --params-file /tmp/launch_params_h8ox9pwm --params-file /tmp/launch_params_5dm8cb4s --params-file /tmp/launch_params_9k2ftd9k --params-file /tmp/launch_params_eimubwi_ --params-file /tmp/launch_params_r3yc9p4m --params-file /tmp/launch_params_xfvtxqvg --params-file /tmp/launch_params_bh3_16cc --params-file /tmp/launch_params_m9wsvvfl --params-file /tmp/launch_params_itkf8h0b -r input=centerpoint/objects -r output=centerpoint/roi_fusion/objects 
+    mean:
+      value: 1.444
+    mean_in_count:
+      value: 12.033
+    count:
+      value: 3
+  6551:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/object_merger/lib/object_merger/object_association_merger_node --ros-args -r __node=object_association_merger_autoware_3373_7457288206292503172 -r __ns=/perception/object_recognition/detection -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/object_merger/data_association_matrix.param.yaml --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/object_merger/overlapped_judge.param.yaml --params-file /home/autoware/autoware.proj/install/object_merger/share/object_merger/config/object_association_merger.param.yaml --params-file /tmp/launch_params_g4ri91_j -r input/object0=centerpoint_roi_cluster_fusion/objects -r input/object1=detection_by_tracker/objects -r output/object=objects_before_filter 
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  6561:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/detected_object_validation/lib/detected_object_validation/object_lanelet_filter_node --ros-args -r __node=object_lanelet_filter -r __ns=/perception/object_recognition/detection -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/object_filter/object_lanelet_filter.param.yaml -r input/vector_map=/map/vector_map -r input/object=objects_before_filter -r output/object=objects 
+    mean:
+      value: 9.848
+    mean_in_count:
+      value: 13.678
+    count:
+      value: 18
+  6566:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/multi_object_tracker/lib/multi_object_tracker/multi_object_tracker_node --ros-args -r __node=multi_object_tracker -r __ns=/perception/object_recognition/tracking -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_d4_jde7j --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/tracking/multi_object_tracker/multi_object_tracker_node.param.yaml --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/tracking/multi_object_tracker/data_association_matrix.param.yaml --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/tracking/multi_object_tracker/input_channels.param.yaml -r output=/perception/object_recognition/tracking/near_objects 
+    mean:
+      value: 1.472
+    mean_in_count:
+      value: 12.267
+    count:
+      value: 3
+  6570:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/radar_object_tracker/lib/radar_object_tracker/radar_object_tracker --ros-args -r __node=radar_object_tracker -r __ns=/perception/object_recognition/tracking -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/tracking/radar_object_tracker/default_tracker.param.yaml --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/tracking/radar_object_tracker/data_association_matrix.param.yaml --params-file /tmp/launch_params_b_nk1dq7 -r input=/perception/object_recognition/detection/radar/far_objects -r output=/perception/object_recognition/tracking/radar/far_objects -r /vector_map=/map/vector_map 
+    mean:
+      value: 1.000
+    mean_in_count:
+      value: 12.500
+    count:
+      value: 2
+  6590:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/autoware_map_based_prediction/lib/autoware_map_based_prediction/map_based_prediction --ros-args -r __node=map_based_prediction -r __ns=/perception/object_recognition/prediction -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/prediction/map_based_prediction.param.yaml -r objects=/perception/object_recognition/objects -r /vector_map=/map/vector_map -r /traffic_signals=/perception/traffic_light_recognition/traffic_signals -r ~/output/objects=/perception/object_recognition/objects -r ~/input/objects=/perception/object_recognition/tracking/objects 
+    mean:
+      value: 4.612
+    mean_in_count:
+      value: 12.811
+    count:
+      value: 9
+  6628:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/autoware_crosswalk_traffic_light_estimator/lib/autoware_crosswalk_traffic_light_estimator/crosswalk_traffic_light_estimator_node --ros-args -r __node=crosswalk_traffic_light_estimator -r __ns=/perception/traffic_light_recognition -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_crosswalk_traffic_light_estimator/share/autoware_crosswalk_traffic_light_estimator/config/crosswalk_traffic_light_estimator.param.yaml -r ~/input/vector_map=/map/vector_map -r ~/input/route=/planning/mission_planning/route -r ~/input/classified/traffic_signals=/perception/traffic_light_recognition/judged/traffic_signals -r ~/output/traffic_signals=/perception/traffic_light_recognition/traffic_signals 
+    mean:
+      value: 12.836
+    mean_in_count:
+      value: 13.371
+    count:
+      value: 24
+  6630:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/traffic_light_visualization/lib/traffic_light_visualization/traffic_light_map_visualizer_node --ros-args -r __node=traffic_light_map_visualizer -r __ns=/perception/traffic_light_recognition -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 -r ~/input/tl_state=traffic_signals -r ~/input/vector_map=/map/vector_map -r ~/output/traffic_light=traffic_signals/markers 
+    mean:
+      value: 0.972
+    mean_in_count:
+      value: 12.150
+    count:
+      value: 2
+  6638:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=mission_planner_container -r __ns=/planning/mission_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 11.800
+    count:
+      value: 1
+  6706:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container --ros-args -r __node=velocity_smoother_container -r __ns=/planning/scenario_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 4.648
+    mean_in_count:
+      value: 14.525
+    count:
+      value: 8
+  6724:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=behavior_planning_container -r __ns=/planning/scenario_planning/lane_driving/behavior_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 68.580
+    mean_in_count:
+      value: 68.580
+    count:
+      value: 25
+  6744:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=motion_planning_container -r __ns=/planning/scenario_planning/lane_driving/motion_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 70.888
+    mean_in_count:
+      value: 70.888
+    count:
+      value: 25
+  6749:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=parking_container -r __ns=/planning/scenario_planning/parking -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 0.500
+    mean_in_count:
+      value: 12.500
+    count:
+      value: 1
+  6758:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/autoware_remaining_distance_time_calculator/lib/autoware_remaining_distance_time_calculator/autoware_remaining_distance_time_calculator_node --ros-args -r __node=remaining_distance_time_calculator -r __ns=/planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_remaining_distance_time_calculator/share/autoware_remaining_distance_time_calculator/config/remaining_distance_time_calculator.param.yaml -r ~/input/odometry=/localization/kinematic_state -r ~/input/map=/map/vector_map -r ~/input/route=/planning/mission_planning/route -r ~/output/mission_remaining_distance_time=/planning/mission_remaining_distance_time 
+    mean:
+      value: 21.928
+    mean_in_count:
+      value: 21.928
+    count:
+      value: 25
+  6767:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=control_container -r __ns=/control -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 42.524
+    mean_in_count:
+      value: 42.524
+    count:
+      value: 25
+  6771:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/awapi_awiv_adapter/lib/awapi_awiv_adapter/awapi_awiv_adapter --ros-args -r __ns=/awapi -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_psp25ca9 --params-file /tmp/launch_params_8mjn6zob --params-file /tmp/launch_params_8c_uerm5 --params-file /tmp/launch_params_j2eut3w_ --params-file /tmp/launch_params_vh8ai50f --params-file /tmp/launch_params_e2g94c4v --params-file /tmp/launch_params_zkfsxiux -r input/steer=/vehicle/status/steering_status -r input/vehicle_cmd=/control/command/control_cmd -r input/turn_indicators=/vehicle/status/turn_indicators_status -r input/hazard_lights=/vehicle/status/hazard_lights_status -r input/odometry=/localization/kinematic_state -r input/gear=/vehicle/status/gear_status -r input/battery=/vehicle/status/battery_charge -r input/nav_sat=/sensing/gnss/ublox/nav_sat_fix -r input/autoware_state=/api/iv_msgs/autoware/state -r input/control_mode=/vehicle/status/control_mode -r input/gate_mode=/control/current_gate_mode -r input/mrm_state=/system/fail_safe/mrm_state -r input/hazard_status=/system/emergency/hazard_status -r input/stop_reason=/planning/scenario_planning/status/stop_reasons -r input/v2x_command=/planning/scenario_planning/status/infrastructure_commands -r input/v2x_state=/system/v2x/virtual_traffic_light_states -r input/diagnostics=/diagnostics_agg -r input/lane_change_available=/planning/scenario_planning/lane_driving/lane_change_available -r input/lane_change_ready=/planning/scenario_planning/lane_driving/lane_change_ready -r input/lane_change_candidate_path=/planning/scenario_planning/lane_driving/lane_change_candidate_path -r input/obstacle_avoid_ready=/planning/scenario_planning/lane_driving/obstacle_avoidance_ready -r input/obstacle_avoid_candidate_path=/planning/scenario_planning/lane_driving/obstacle_avoidance_candidate_trajectory -r input/max_velocity=vehicle/put/velocity -r input/current_max_velocity=/planning/scenario_planning/current_max_velocity -r input/temporary_stop=vehicle/put/stop -r input/autoware_trajectory=/planning/scenario_planning/trajectory -r output/vehicle_status=vehicle/get/status -r output/autoware_status=autoware/get/status -r output/lane_change_status=lane_change/get/status -r output/obstacle_avoid_status=object_avoidance/get/status -r output/max_velocity=/planning/scenario_planning/max_velocity_default -r output/v2x_command=/awapi/tmp/infrastructure_commands -r output/v2x_state=/awapi/tmp/virtual_traffic_light_states 
+    mean:
+      value: 4.332
+    mean_in_count:
+      value: 12.033
+    count:
+      value: 9
+  6781:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=awapi_relay_container -r __ns=/awapi -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 29.324
+    mean_in_count:
+      value: 29.324
+    count:
+      value: 25
+  6819:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=autoware_iv_adaptor -r __ns=/autoware_api/external -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 14.768
+    mean_in_count:
+      value: 14.768
+    count:
+      value: 25
+  6838:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=autoware_iv_adaptor -r __ns=/autoware_api/internal -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 0.972
+    mean_in_count:
+      value: 12.150
+    count:
+      value: 2
+  6985:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args --log-level default_ad_api.container=WARN --ros-args -r __node=container -r __ns=/default_ad_api -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 18.128
+    mean_in_count:
+      value: 18.128
+    count:
+      value: 25
+  70:
+    user_name: root
+    command:  ksoftirqd/9
+    mean:
+      value: 0.472
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 2
+  7046:
+    user_name: autoware
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args --log-level autoware_api.external.rtc_controller.container=warn --ros-args -r __node=container -r __ns=/autoware_api/external/rtc_controller -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    mean:
+      value: 4.092
+    mean_in_count:
+      value: 12.788
+    count:
+      value: 8
+  7072:
+    user_name: autoware
+    command: python3 /opt/ros/humble/lib/rosbridge_server/rosbridge_websocket --ros-args -r __node=rosbridge_websocket -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_nx9kp02f --params-file /tmp/launch_params_g2sjekui --params-file /tmp/launch_params_zhmg96h5 --params-file /tmp/launch_params_j0ih4ez6 --params-file /tmp/launch_params_3rhxdxsf --params-file /tmp/launch_params_9orypnsy --params-file /tmp/launch_params_04ykloqq --params-file /tmp/launch_params_kzog0ghh --params-file /tmp/launch_params_qj0dzx7z --params-file /tmp/launch_params_64dkk6q5 --params-file /tmp/launch_params_k0tdfzpx --params-file /tmp/launch_params_3rvasci7 --params-file /tmp/launch_params_kim1l4cq 
+    mean:
+      value: 0.500
+    mean_in_count:
+      value: 12.500
+    count:
+      value: 1
+  711:
+    user_name: systemd+
+    command: /lib/systemd/systemd-resolved 
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  76:
+    user_name: root
+    command:  ksoftirqd/10
+    mean:
+      value: 0.236
+    mean_in_count:
+      value: 5.900
+    count:
+      value: 1
+  82:
+    user_name: root
+    command:  ksoftirqd/11
+    mean:
+      value: 0.248
+    mean_in_count:
+      value: 6.200
+    count:
+      value: 1
+  8422:
+    user_name: root
+    command: nethogs -t enp2s0f1 
+    mean:
+      value: 0.444
+    mean_in_count:
+      value: 11.100
+    count:
+      value: 1
+  94:
+    user_name: root
+    command:  ksoftirqd/13
+    mean:
+      value: 0.732
+    mean_in_count:
+      value: 6.100
+    count:
+      value: 3
+process list on peak time of CPU usage:
+  5164:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pointcloud_container -r __ns=/ -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 173.700
+    time-lag (ns):
+      value: 1166784851
+  6744:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=motion_planning_container -r __ns=/planning/scenario_planning/lane_driving/motion_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 89.500
+    time-lag (ns):
+      value: 1166784851
+  6724:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=behavior_planning_container -r __ns=/planning/scenario_planning/lane_driving/behavior_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 73.700
+    time-lag (ns):
+      value: 1166784851
+  3268:
+    command: /home/autoware/autoware.proj/install/foxglove_bridge/lib/foxglove_bridge/foxglove_bridge --ros-args --params-file /tmp/launch_params_qsxh1w9r --params-file /tmp/launch_params_iz1i_8w_ --params-file /tmp/launch_params_i2u8na4s --params-file /tmp/launch_params_c335i2a_ --params-file /tmp/launch_params_h7nvztry --params-file /tmp/launch_params_ud_3qr50 --params-file /tmp/launch_params__yn0n4nv --params-file /tmp/launch_params_ol8p4znr --params-file /tmp/launch_params_6ht0bx4p --params-file /tmp/launch_params_5bkgbggv --params-file /tmp/launch_params_d6tv7lvc --params-file /tmp/launch_params_j29oq6wv --params-file /tmp/launch_params_1oxveft1 --params-file /tmp/launch_params_sg0trgzj --params-file /tmp/launch_params_kfdjyvjk --params-file /tmp/launch_params_tnitj9y_ --params-file /tmp/launch_params_xspn6c3e 
+    usage:
+      value: 52.600
+    time-lag (ns):
+      value: 1166784851
+  5510:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/left_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 42.100
+    time-lag (ns):
+      value: 1166784851
+  5619:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/right_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 42.100
+    time-lag (ns):
+      value: 1166784851
+  5491:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/front_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 36.800
+    time-lag (ns):
+      value: 1166784851
+  5704:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/rear_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 36.800
+    time-lag (ns):
+      value: 1166784851
+  6767:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=control_container -r __ns=/control -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 36.800
+    time-lag (ns):
+      value: 1166784851
+  6781:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=awapi_relay_container -r __ns=/awapi -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 26.300
+    time-lag (ns):
+      value: 1166784851
+  4497:
+    command: python /greengrass/v2/work/fms-prd-edge-autowaret4b-edge-core/work/worker/Onfg-hjJd70_YRhVWSXQPSLu-AAm5fLpIHehYNhh0y4/lambda/initialize/../entrypoint_ros_direct.py 
+    usage:
+      value: 21.100
+    time-lag (ns):
+      value: 1166784851
+  5669:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/right_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 21.100
+    time-lag (ns):
+      value: 1166784851
+  5716:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/rear_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 21.100
+    time-lag (ns):
+      value: 1166784851
+  6192:
+    command: /home/autoware/autoware.proj/install/ndt_scan_matcher/lib/ndt_scan_matcher/ndt_scan_matcher_node --ros-args -r __node=ndt_scan_matcher -r __ns=/localization/pose_estimator -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/localization/ndt_scan_matcher/ndt_scan_matcher.param.yaml -r points_raw=/localization/util/downsample/pointcloud -r ekf_pose_with_covariance=/localization/pose_twist_fusion_filter/biased_pose_with_covariance -r regularization_pose_with_covariance=/sensing/gnss/pose_with_covariance -r trigger_node_srv=/localization/pose_estimator/trigger_node -r ndt_pose=/localization/pose_estimator/pose -r ndt_pose_with_covariance=/localization/pose_estimator/pose_with_covariance -r pcd_loader_service=/map/get_differential_pointcloud_map 
+    usage:
+      value: 21.100
+    time-lag (ns):
+      value: 1166784851
+  6706:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container --ros-args -r __node=velocity_smoother_container -r __ns=/planning/scenario_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 21.100
+    time-lag (ns):
+      value: 1166784851
+  6758:
+    command: /home/autoware/autoware.proj/install/autoware_remaining_distance_time_calculator/lib/autoware_remaining_distance_time_calculator/autoware_remaining_distance_time_calculator_node --ros-args -r __node=remaining_distance_time_calculator -r __ns=/planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_remaining_distance_time_calculator/share/autoware_remaining_distance_time_calculator/config/remaining_distance_time_calculator.param.yaml -r ~/input/odometry=/localization/kinematic_state -r ~/input/map=/map/vector_map -r ~/input/route=/planning/mission_planning/route -r ~/output/mission_remaining_distance_time=/planning/mission_remaining_distance_time 
+    usage:
+      value: 21.100
+    time-lag (ns):
+      value: 1166784851
+  6819:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=autoware_iv_adaptor -r __ns=/autoware_api/external -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 21.100
+    time-lag (ns):
+      value: 1166784851
+  6985:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args --log-level default_ad_api.container=WARN --ros-args -r __node=container -r __ns=/default_ad_api -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 21.100
+    time-lag (ns):
+      value: 1166784851
+  5178:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=system_monitor_container -r __ns=/system/system_monitor/system_monitor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 15.800
+    time-lag (ns):
+      value: 1166784851
+  5497:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/front_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 15.800
+    time-lag (ns):
+      value: 1166784851
+  5591:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/left_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 15.800
+    time-lag (ns):
+      value: 1166784851
+  6168:
+    command: /home/autoware/autoware.proj/install/simple_object_merger/lib/simple_object_merger/simple_object_merger_node --ros-args -r __node=simple_object_merger -r __ns=/sensing/radar -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/aip_x2_launch/share/aip_x2_launch/config/simple_object_merger.param.yaml -r ~/output/objects=detected_objects 
+    usage:
+      value: 15.800
+    time-lag (ns):
+      value: 1166784851
+  6339:
+    command: /home/autoware/autoware.proj/install/shape_estimation/lib/shape_estimation/shape_estimation --ros-args -r __node=shape_estimation -r __ns=/perception/object_recognition/detection/clustering/camera_lidar_fusion -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/shape_estimation/share/shape_estimation/config/shape_estimation.param.yaml -r input=filtered/clusters -r objects=objects_with_feature 
+    usage:
+      value: 15.800
+    time-lag (ns):
+      value: 1166784851
+  6389:
+    command: /home/autoware/autoware.proj/install/detected_object_validation/lib/detected_object_validation/object_lanelet_filter_node --ros-args -r __node=object_lanelet_filter -r __ns=/perception/object_recognition/detection/radar -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/detected_object_validation/share/detected_object_validation/config/object_lanelet_filter.param.yaml -r input/vector_map=/map/vector_map -r input/object=far_high_speed_objects -r output/object=lanelet_filtered_objects 
+    usage:
+      value: 15.800
+    time-lag (ns):
+      value: 1166784851
+  6514:
+    command: /home/autoware/autoware.proj/install/detection_by_tracker/lib/detection_by_tracker/detection_by_tracker --ros-args -r __node=detection_by_tracker_node -r __ns=/perception/object_recognition/detection/detection_by_tracker -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/detection_by_tracker/detection_by_tracker.param.yaml -r ~/input/tracked_objects=/perception/object_recognition/tracking/objects -r ~/input/initial_objects=/perception/object_recognition/detection/clustering/objects_with_feature -r ~/output=objects 
+    usage:
+      value: 15.800
+    time-lag (ns):
+      value: 1166784851
+  6628:
+    command: /home/autoware/autoware.proj/install/autoware_crosswalk_traffic_light_estimator/lib/autoware_crosswalk_traffic_light_estimator/crosswalk_traffic_light_estimator_node --ros-args -r __node=crosswalk_traffic_light_estimator -r __ns=/perception/traffic_light_recognition -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_crosswalk_traffic_light_estimator/share/autoware_crosswalk_traffic_light_estimator/config/crosswalk_traffic_light_estimator.param.yaml -r ~/input/vector_map=/map/vector_map -r ~/input/route=/planning/mission_planning/route -r ~/input/classified/traffic_signals=/perception/traffic_light_recognition/judged/traffic_signals -r ~/output/traffic_signals=/perception/traffic_light_recognition/traffic_signals 
+    usage:
+      value: 15.800
+    time-lag (ns):
+      value: 1166784851
+  5419:
+    command: /home/autoware/autoware.proj/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/aggregator_node --ros-args -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/config/default.param.yaml --params-file /tmp/launch_params_ov47lxtj 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  5766:
+    command: /opt/ros/humble/lib/septentrio_gnss_driver/septentrio_gnss_driver_node --ros-args -r __node=septentrio -r __ns=/sensing/gnss -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/aip_x2_launch/share/aip_x2_launch/config/mosaic_x5_rover.param.yaml -r navsatfix=~/nav_sat_fix -r poscovgeodetic=~/poscovgeodetic -r pvtgeodetic=~/pvtgeodetic 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  5882:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_n_sbdypd 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  5885:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_o2zn0oys --params-file /tmp/launch_params_2tqmxux6 --params-file /tmp/launch_params__vndrobx --params-file /tmp/launch_params_zupf9ef8 --params-file /tmp/launch_params_re65shx6 --params-file /tmp/launch_params__gs9ijam -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  5937:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_f7f5nqqa --params-file /tmp/launch_params_1p9g14qf --params-file /tmp/launch_params_qyom9v23 --params-file /tmp/launch_params_nqv5xdxd --params-file /tmp/launch_params_dgcjrx14 --params-file /tmp/launch_params_7t7kzwhz -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  5984:
+    command: /home/autoware/autoware.proj/install/radar_tracks_msgs_converter/lib/radar_tracks_msgs_converter/radar_tracks_msgs_converter_node --ros-args -r __node=radar_tracks_msgs_converter -r __ns=/sensing/radar/rear_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/common_sensor_launch/share/common_sensor_launch/config/radar_tracks_msgs_converter.param.yaml -r ~/input/radar_objects=filtered_objects -r ~/input/odometry=/localization/kinematic_state -r ~/output/radar_detected_objects=detected_objects -r ~/output/radar_tracked_objects=tracked_objects 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  5987:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/rear_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_qvx94vyp 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  5989:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/rear_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_takudo0u --params-file /tmp/launch_params_4o4esw7a --params-file /tmp/launch_params_7k0eq_au --params-file /tmp/launch_params_uj0957nf --params-file /tmp/launch_params_0y8jq6ov --params-file /tmp/launch_params_z89v_ycz -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  6020:
+    command: /home/autoware/autoware.proj/install/radar_tracks_msgs_converter/lib/radar_tracks_msgs_converter/radar_tracks_msgs_converter_node --ros-args -r __node=radar_tracks_msgs_converter -r __ns=/sensing/radar/rear_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/common_sensor_launch/share/common_sensor_launch/config/radar_tracks_msgs_converter.param.yaml -r ~/input/radar_objects=filtered_objects -r ~/input/odometry=/localization/kinematic_state -r ~/output/radar_detected_objects=detected_objects -r ~/output/radar_tracked_objects=tracked_objects 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  6149:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_w9k07z13 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  6161:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_79axarr7 --params-file /tmp/launch_params_45_zd6kk --params-file /tmp/launch_params_diaf4m11 --params-file /tmp/launch_params_4dddxg7u --params-file /tmp/launch_params_pgztmysx --params-file /tmp/launch_params_9qg45192 -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  6202:
+    command: /home/autoware/autoware.proj/install/gyro_odometer/lib/gyro_odometer/gyro_odometer_node --ros-args -r __ns=/localization/twist_estimator -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/gyro_odometer/share/gyro_odometer/config/gyro_odometer.param.yaml -r vehicle/twist_with_covariance=/sensing/vehicle_velocity_converter/twist_with_covariance -r imu=/sensing/imu/imu_data -r twist_raw=gyro_twist_raw -r twist_with_covariance_raw=/localization/twist_estimator/twist_with_covariance_raw -r twist=gyro_twist -r twist_with_covariance=/localization/twist_estimator/twist_with_covariance 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  6211:
+    command: /home/autoware/autoware.proj/install/ekf_localizer/lib/ekf_localizer/ekf_localizer_node --ros-args -r __ns=/localization/pose_twist_fusion_filter -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/localization/ekf_localizer.param.yaml -r in_pose_with_covariance=/localization/pose_estimator/pose_with_covariance -r in_twist_with_covariance=/localization/twist_estimator/twist_with_covariance -r initialpose=/initialpose3d -r trigger_node_srv=trigger_node -r ekf_odom=kinematic_state -r ekf_pose=pose -r ekf_pose_with_covariance=/localization/pose_with_covariance -r ekf_biased_pose=biased_pose -r ekf_biased_pose_with_covariance=biased_pose_with_covariance -r ekf_twist=twist -r ekf_twist_with_covariance=twist_with_covariance 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  6324:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container --ros-args -r __node=euclidean_cluster_container -r __ns=/perception/object_recognition/detection/clustering -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 10.500
+    time-lag (ns):
+      value: 1166784851
+  5164:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pointcloud_container -r __ns=/ -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 194.100
+    time-lag (ns):
+      value: 2206656399
+  6744:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=motion_planning_container -r __ns=/planning/scenario_planning/lane_driving/motion_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 58.800
+    time-lag (ns):
+      value: 2206656399
+  5510:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/left_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 52.900
+    time-lag (ns):
+      value: 2206656399
+  6724:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=behavior_planning_container -r __ns=/planning/scenario_planning/lane_driving/behavior_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 52.900
+    time-lag (ns):
+      value: 2206656399
+  5491:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/front_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 47.100
+    time-lag (ns):
+      value: 2206656399
+  6767:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=control_container -r __ns=/control -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 47.100
+    time-lag (ns):
+      value: 2206656399
+  5619:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/right_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 41.200
+    time-lag (ns):
+      value: 2206656399
+  4497:
+    command: python /greengrass/v2/work/fms-prd-edge-autowaret4b-edge-core/work/worker/Onfg-hjJd70_YRhVWSXQPSLu-AAm5fLpIHehYNhh0y4/lambda/initialize/../entrypoint_ros_direct.py 
+    usage:
+      value: 29.400
+    time-lag (ns):
+      value: 2206656399
+  5704:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/rear_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 29.400
+    time-lag (ns):
+      value: 2206656399
+  6192:
+    command: /home/autoware/autoware.proj/install/ndt_scan_matcher/lib/ndt_scan_matcher/ndt_scan_matcher_node --ros-args -r __node=ndt_scan_matcher -r __ns=/localization/pose_estimator -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/localization/ndt_scan_matcher/ndt_scan_matcher.param.yaml -r points_raw=/localization/util/downsample/pointcloud -r ekf_pose_with_covariance=/localization/pose_twist_fusion_filter/biased_pose_with_covariance -r regularization_pose_with_covariance=/sensing/gnss/pose_with_covariance -r trigger_node_srv=/localization/pose_estimator/trigger_node -r ndt_pose=/localization/pose_estimator/pose -r ndt_pose_with_covariance=/localization/pose_estimator/pose_with_covariance -r pcd_loader_service=/map/get_differential_pointcloud_map 
+    usage:
+      value: 29.400
+    time-lag (ns):
+      value: 2206656399
+  6781:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=awapi_relay_container -r __ns=/awapi -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 29.400
+    time-lag (ns):
+      value: 2206656399
+  5669:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/right_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 23.500
+    time-lag (ns):
+      value: 2206656399
+  5497:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/front_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  5591:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/left_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  5716:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/rear_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  5932:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_492a9iir 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  5937:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_f7f5nqqa --params-file /tmp/launch_params_1p9g14qf --params-file /tmp/launch_params_qyom9v23 --params-file /tmp/launch_params_nqv5xdxd --params-file /tmp/launch_params_dgcjrx14 --params-file /tmp/launch_params_7t7kzwhz -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  5989:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/rear_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_takudo0u --params-file /tmp/launch_params_4o4esw7a --params-file /tmp/launch_params_7k0eq_au --params-file /tmp/launch_params_uj0957nf --params-file /tmp/launch_params_0y8jq6ov --params-file /tmp/launch_params_z89v_ycz -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  6211:
+    command: /home/autoware/autoware.proj/install/ekf_localizer/lib/ekf_localizer/ekf_localizer_node --ros-args -r __ns=/localization/pose_twist_fusion_filter -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/localization/ekf_localizer.param.yaml -r in_pose_with_covariance=/localization/pose_estimator/pose_with_covariance -r in_twist_with_covariance=/localization/twist_estimator/twist_with_covariance -r initialpose=/initialpose3d -r trigger_node_srv=trigger_node -r ekf_odom=kinematic_state -r ekf_pose=pose -r ekf_pose_with_covariance=/localization/pose_with_covariance -r ekf_biased_pose=biased_pose -r ekf_biased_pose_with_covariance=biased_pose_with_covariance -r ekf_twist=twist -r ekf_twist_with_covariance=twist_with_covariance 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  6389:
+    command: /home/autoware/autoware.proj/install/detected_object_validation/lib/detected_object_validation/object_lanelet_filter_node --ros-args -r __node=object_lanelet_filter -r __ns=/perception/object_recognition/detection/radar -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/detected_object_validation/share/detected_object_validation/config/object_lanelet_filter.param.yaml -r input/vector_map=/map/vector_map -r input/object=far_high_speed_objects -r output/object=lanelet_filtered_objects 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  6628:
+    command: /home/autoware/autoware.proj/install/autoware_crosswalk_traffic_light_estimator/lib/autoware_crosswalk_traffic_light_estimator/crosswalk_traffic_light_estimator_node --ros-args -r __node=crosswalk_traffic_light_estimator -r __ns=/perception/traffic_light_recognition -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_crosswalk_traffic_light_estimator/share/autoware_crosswalk_traffic_light_estimator/config/crosswalk_traffic_light_estimator.param.yaml -r ~/input/vector_map=/map/vector_map -r ~/input/route=/planning/mission_planning/route -r ~/input/classified/traffic_signals=/perception/traffic_light_recognition/judged/traffic_signals -r ~/output/traffic_signals=/perception/traffic_light_recognition/traffic_signals 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  6758:
+    command: /home/autoware/autoware.proj/install/autoware_remaining_distance_time_calculator/lib/autoware_remaining_distance_time_calculator/autoware_remaining_distance_time_calculator_node --ros-args -r __node=remaining_distance_time_calculator -r __ns=/planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_remaining_distance_time_calculator/share/autoware_remaining_distance_time_calculator/config/remaining_distance_time_calculator.param.yaml -r ~/input/odometry=/localization/kinematic_state -r ~/input/map=/map/vector_map -r ~/input/route=/planning/mission_planning/route -r ~/output/mission_remaining_distance_time=/planning/mission_remaining_distance_time 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  6819:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=autoware_iv_adaptor -r __ns=/autoware_api/external -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  6985:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args --log-level default_ad_api.container=WARN --ros-args -r __node=container -r __ns=/default_ad_api -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 17.600
+    time-lag (ns):
+      value: 2206656399
+  5178:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=system_monitor_container -r __ns=/system/system_monitor/system_monitor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  5213:
+    command: /home/autoware/autoware.proj/install/topic_state_monitor/lib/topic_state_monitor/topic_state_monitor_node --ros-args -r __node=topic_state_monitor_mission_planning_route -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params__rs64n4p --params-file /tmp/launch_params_yc10cyi6 --params-file /tmp/launch_params_buales5e --params-file /tmp/launch_params_c498agj8 --params-file /tmp/launch_params_koa6_jn0 --params-file /tmp/launch_params_7uywy900 --params-file /tmp/launch_params_6bfyf3kk --params-file /tmp/launch_params_bgerpbqn --params-file /tmp/launch_params_y7n7s_no 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  5419:
+    command: /home/autoware/autoware.proj/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/aggregator_node --ros-args -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/config/default.param.yaml --params-file /tmp/launch_params_ov47lxtj 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  5882:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_n_sbdypd 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  5885:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_o2zn0oys --params-file /tmp/launch_params_2tqmxux6 --params-file /tmp/launch_params__vndrobx --params-file /tmp/launch_params_zupf9ef8 --params-file /tmp/launch_params_re65shx6 --params-file /tmp/launch_params__gs9ijam -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  5987:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/rear_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_qvx94vyp 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  6161:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_79axarr7 --params-file /tmp/launch_params_45_zd6kk --params-file /tmp/launch_params_diaf4m11 --params-file /tmp/launch_params_4dddxg7u --params-file /tmp/launch_params_pgztmysx --params-file /tmp/launch_params_9qg45192 -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  6561:
+    command: /home/autoware/autoware.proj/install/detected_object_validation/lib/detected_object_validation/object_lanelet_filter_node --ros-args -r __node=object_lanelet_filter -r __ns=/perception/object_recognition/detection -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/object_filter/object_lanelet_filter.param.yaml -r input/vector_map=/map/vector_map -r input/object=objects_before_filter -r output/object=objects 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  6771:
+    command: /home/autoware/autoware.proj/install/awapi_awiv_adapter/lib/awapi_awiv_adapter/awapi_awiv_adapter --ros-args -r __ns=/awapi -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_psp25ca9 --params-file /tmp/launch_params_8mjn6zob --params-file /tmp/launch_params_8c_uerm5 --params-file /tmp/launch_params_j2eut3w_ --params-file /tmp/launch_params_vh8ai50f --params-file /tmp/launch_params_e2g94c4v --params-file /tmp/launch_params_zkfsxiux -r input/steer=/vehicle/status/steering_status -r input/vehicle_cmd=/control/command/control_cmd -r input/turn_indicators=/vehicle/status/turn_indicators_status -r input/hazard_lights=/vehicle/status/hazard_lights_status -r input/odometry=/localization/kinematic_state -r input/gear=/vehicle/status/gear_status -r input/battery=/vehicle/status/battery_charge -r input/nav_sat=/sensing/gnss/ublox/nav_sat_fix -r input/autoware_state=/api/iv_msgs/autoware/state -r input/control_mode=/vehicle/status/control_mode -r input/gate_mode=/control/current_gate_mode -r input/mrm_state=/system/fail_safe/mrm_state -r input/hazard_status=/system/emergency/hazard_status -r input/stop_reason=/planning/scenario_planning/status/stop_reasons -r input/v2x_command=/planning/scenario_planning/status/infrastructure_commands -r input/v2x_state=/system/v2x/virtual_traffic_light_states -r input/diagnostics=/diagnostics_agg -r input/lane_change_available=/planning/scenario_planning/lane_driving/lane_change_available -r input/lane_change_ready=/planning/scenario_planning/lane_driving/lane_change_ready -r input/lane_change_candidate_path=/planning/scenario_planning/lane_driving/lane_change_candidate_path -r input/obstacle_avoid_ready=/planning/scenario_planning/lane_driving/obstacle_avoidance_ready -r input/obstacle_avoid_candidate_path=/planning/scenario_planning/lane_driving/obstacle_avoidance_candidate_trajectory -r input/max_velocity=vehicle/put/velocity -r input/current_max_velocity=/planning/scenario_planning/current_max_velocity -r input/temporary_stop=vehicle/put/stop -r input/autoware_trajectory=/planning/scenario_planning/trajectory -r output/vehicle_status=vehicle/get/status -r output/autoware_status=autoware/get/status -r output/lane_change_status=lane_change/get/status -r output/obstacle_avoid_status=object_avoidance/get/status -r output/max_velocity=/planning/scenario_planning/max_velocity_default -r output/v2x_command=/awapi/tmp/infrastructure_commands -r output/v2x_state=/awapi/tmp/virtual_traffic_light_states 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  6838:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=autoware_iv_adaptor -r __ns=/autoware_api/internal -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 11.800
+    time-lag (ns):
+      value: 2206656399
+  2173:
+    command: /usr/bin/gnome-shell 
+    usage:
+      value: 5.900
+    time-lag (ns):
+      value: 2206656399
+  3087:
+    command: /usr/bin/python3 /usr/bin/x-terminal-emulator 
+    usage:
+      value: 5.900
+    time-lag (ns):
+      value: 2206656399
+  3268:
+    command: /home/autoware/autoware.proj/install/foxglove_bridge/lib/foxglove_bridge/foxglove_bridge --ros-args --params-file /tmp/launch_params_qsxh1w9r --params-file /tmp/launch_params_iz1i_8w_ --params-file /tmp/launch_params_i2u8na4s --params-file /tmp/launch_params_c335i2a_ --params-file /tmp/launch_params_h7nvztry --params-file /tmp/launch_params_ud_3qr50 --params-file /tmp/launch_params__yn0n4nv --params-file /tmp/launch_params_ol8p4znr --params-file /tmp/launch_params_6ht0bx4p --params-file /tmp/launch_params_5bkgbggv --params-file /tmp/launch_params_d6tv7lvc --params-file /tmp/launch_params_j29oq6wv --params-file /tmp/launch_params_1oxveft1 --params-file /tmp/launch_params_sg0trgzj --params-file /tmp/launch_params_kfdjyvjk --params-file /tmp/launch_params_tnitj9y_ --params-file /tmp/launch_params_xspn6c3e 
+    usage:
+      value: 5.900
+    time-lag (ns):
+      value: 2206656399
+  4478:
+    command: /usr/bin/python3 /opt/aws/amazon-cloudwatch-publisher/bin/amazon-cloudwatch-publisher 
+    usage:
+      value: 5.900
+    time-lag (ns):
+      value: 2206656399
+  4799:
+    command: /usr/bin/python3 -c fromros2cli.daemon.daemonizeimportmain;main() --name ros2-daemon --ros-domain-id 1 --rmw-implementation rmw_cyclonedds_cpp 
+    usage:
+      value: 5.900
+    time-lag (ns):
+      value: 2206656399
+  5166:
+    command: /opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node=robot_state_publisher -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_7696zcjq 
+    usage:
+      value: 5.900
+    time-lag (ns):
+      value: 2206656399
+  5164:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pointcloud_container -r __ns=/ -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 187.500
+    time-lag (ns):
+      value: 3136175849
+  6744:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=motion_planning_container -r __ns=/planning/scenario_planning/lane_driving/motion_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 100.000
+    time-lag (ns):
+      value: 3136175849
+  6724:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=behavior_planning_container -r __ns=/planning/scenario_planning/lane_driving/behavior_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 75.000
+    time-lag (ns):
+      value: 3136175849
+  4497:
+    command: python /greengrass/v2/work/fms-prd-edge-autowaret4b-edge-core/work/worker/Onfg-hjJd70_YRhVWSXQPSLu-AAm5fLpIHehYNhh0y4/lambda/initialize/../entrypoint_ros_direct.py 
+    usage:
+      value: 68.800
+    time-lag (ns):
+      value: 3136175849
+  5510:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/left_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 50.000
+    time-lag (ns):
+      value: 3136175849
+  5491:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/front_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 43.800
+    time-lag (ns):
+      value: 3136175849
+  5619:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/right_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 43.800
+    time-lag (ns):
+      value: 3136175849
+  5704:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/rear_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 37.500
+    time-lag (ns):
+      value: 3136175849
+  6767:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=control_container -r __ns=/control -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 37.500
+    time-lag (ns):
+      value: 3136175849
+  6758:
+    command: /home/autoware/autoware.proj/install/autoware_remaining_distance_time_calculator/lib/autoware_remaining_distance_time_calculator/autoware_remaining_distance_time_calculator_node --ros-args -r __node=remaining_distance_time_calculator -r __ns=/planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_remaining_distance_time_calculator/share/autoware_remaining_distance_time_calculator/config/remaining_distance_time_calculator.param.yaml -r ~/input/odometry=/localization/kinematic_state -r ~/input/map=/map/vector_map -r ~/input/route=/planning/mission_planning/route -r ~/output/mission_remaining_distance_time=/planning/mission_remaining_distance_time 
+    usage:
+      value: 31.200
+    time-lag (ns):
+      value: 3136175849
+  5591:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/left_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 25.000
+    time-lag (ns):
+      value: 3136175849
+  5669:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/right_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 25.000
+    time-lag (ns):
+      value: 3136175849
+  5716:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/rear_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 25.000
+    time-lag (ns):
+      value: 3136175849
+  6781:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=awapi_relay_container -r __ns=/awapi -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 25.000
+    time-lag (ns):
+      value: 3136175849
+  5497:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/front_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 18.800
+    time-lag (ns):
+      value: 3136175849
+  6192:
+    command: /home/autoware/autoware.proj/install/ndt_scan_matcher/lib/ndt_scan_matcher/ndt_scan_matcher_node --ros-args -r __node=ndt_scan_matcher -r __ns=/localization/pose_estimator -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/localization/ndt_scan_matcher/ndt_scan_matcher.param.yaml -r points_raw=/localization/util/downsample/pointcloud -r ekf_pose_with_covariance=/localization/pose_twist_fusion_filter/biased_pose_with_covariance -r regularization_pose_with_covariance=/sensing/gnss/pose_with_covariance -r trigger_node_srv=/localization/pose_estimator/trigger_node -r ndt_pose=/localization/pose_estimator/pose -r ndt_pose_with_covariance=/localization/pose_estimator/pose_with_covariance -r pcd_loader_service=/map/get_differential_pointcloud_map 
+    usage:
+      value: 18.800
+    time-lag (ns):
+      value: 3136175849
+  6211:
+    command: /home/autoware/autoware.proj/install/ekf_localizer/lib/ekf_localizer/ekf_localizer_node --ros-args -r __ns=/localization/pose_twist_fusion_filter -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/localization/ekf_localizer.param.yaml -r in_pose_with_covariance=/localization/pose_estimator/pose_with_covariance -r in_twist_with_covariance=/localization/twist_estimator/twist_with_covariance -r initialpose=/initialpose3d -r trigger_node_srv=trigger_node -r ekf_odom=kinematic_state -r ekf_pose=pose -r ekf_pose_with_covariance=/localization/pose_with_covariance -r ekf_biased_pose=biased_pose -r ekf_biased_pose_with_covariance=biased_pose_with_covariance -r ekf_twist=twist -r ekf_twist_with_covariance=twist_with_covariance 
+    usage:
+      value: 18.800
+    time-lag (ns):
+      value: 3136175849
+  6389:
+    command: /home/autoware/autoware.proj/install/detected_object_validation/lib/detected_object_validation/object_lanelet_filter_node --ros-args -r __node=object_lanelet_filter -r __ns=/perception/object_recognition/detection/radar -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/detected_object_validation/share/detected_object_validation/config/object_lanelet_filter.param.yaml -r input/vector_map=/map/vector_map -r input/object=far_high_speed_objects -r output/object=lanelet_filtered_objects 
+    usage:
+      value: 18.800
+    time-lag (ns):
+      value: 3136175849
+  6628:
+    command: /home/autoware/autoware.proj/install/autoware_crosswalk_traffic_light_estimator/lib/autoware_crosswalk_traffic_light_estimator/crosswalk_traffic_light_estimator_node --ros-args -r __node=crosswalk_traffic_light_estimator -r __ns=/perception/traffic_light_recognition -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_crosswalk_traffic_light_estimator/share/autoware_crosswalk_traffic_light_estimator/config/crosswalk_traffic_light_estimator.param.yaml -r ~/input/vector_map=/map/vector_map -r ~/input/route=/planning/mission_planning/route -r ~/input/classified/traffic_signals=/perception/traffic_light_recognition/judged/traffic_signals -r ~/output/traffic_signals=/perception/traffic_light_recognition/traffic_signals 
+    usage:
+      value: 18.800
+    time-lag (ns):
+      value: 3136175849
+  6819:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=autoware_iv_adaptor -r __ns=/autoware_api/external -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 18.800
+    time-lag (ns):
+      value: 3136175849
+  6985:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args --log-level default_ad_api.container=WARN --ros-args -r __node=container -r __ns=/default_ad_api -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 18.800
+    time-lag (ns):
+      value: 3136175849
+  5174:
+    command: /home/autoware/autoware.proj/install/j6_interface/lib/j6_interface/j6_interface --ros-args -r __node=j6_interface -r __ns=/j6 -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/j6_interface/share/j6_interface/config/j6_interface.param.yaml --params-file /home/autoware/autoware.proj/install/j6_interface/share/j6_interface/config/j6_diagnostics.param.yaml -r input/b0_status=can/status/b0_status -r input/b1_status=can/status/b1_status -r input/m0_status=can/status/m0_status -r input/m1_status=can/status/m1_status -r input/m2_status=can/status/m2_status -r input/m3_status=can/status/m3_status -r input/d0_diagnostics=can/diagnostics/d0_diagnostics -r input/t1_debug=can/debug/t1_debug -r input/t2_debug=can/debug/t2_debug -r input/ackermann_control_cmd=/control/command/control_cmd -r input/actuation_cmd=/control/command/actuation_cmd -r input/turn_indicators_cmd=/control/command/turn_indicators_cmd -r input/horn_cmd=/control/command/horn_cmd -r input/headlights_cmd=/control/command/headlights_cmd -r input/wipers_cmd=/control/command/wipers_cmd -r input/harzard_cmd=/control/command/hazard_lights_cmd -r input/control_mode_cmd=/control/control_mode_request -r input/set_door=/api/vehicle/set/door -r output/b0_command=can/command/b0_command -r output/b1_command=can/command/b1_command -r output/m0_command=can/command/m0_command -r output/m1_command=can/command/m1_command -r output/control_mode_report=/vehicle/status/control_mode -r output/velocity_report=/vehicle/status/velocity_status -r output/steering_report=/vehicle/status/steering_status -r output/gear_report=/vehicle/status/gear_status -r output/turn_indicators_report=/vehicle/status/turn_indicators_status -r output/hazard_lights_report=/vehicle/status/hazard_lights_status -r output/door_status=/vehicle/status/door_status -r output/horn_status=/vehicle/status/horn_status -r output/headlights_status=/vehicle/status/headlights_status -r output/room_lights_status=/vehicle/status/room_lights_status -r output/wipers_status=/vehicle/status/wipers_status -r output/kneeling_status=/vehicle/status/kneeling_status -r output/emergency_button_status=/vehicle/status/emergency_button_status -r output/wheel_speed_status=/vehicle/status/wheel_speed_status -r output/steering_wheel_status=/vehicle/status/steering_wheel_status -r output/steering_status_sub=/vehicle/status/steering_status_sub -r output/steering_wheel_status_sub=/vehicle/status/steering_wheel_status_sub -r output/override_status=/vehicle/status/override_status -r output/parking_brake_status=/vehicle/status/parking_brake_status -r output/j6_debug_report=/vehicle/status/j6_debug_report 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  5184:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container --ros-args -r __node=container -r __ns=/system/component_state_monitor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  5419:
+    command: /home/autoware/autoware.proj/install/diagnostic_graph_aggregator/lib/diagnostic_graph_aggregator/aggregator_node --ros-args -r __ns=/system -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/diagnostic_graph_aggregator/share/diagnostic_graph_aggregator/config/default.param.yaml --params-file /tmp/launch_params_ov47lxtj 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  5882:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_n_sbdypd 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  5885:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/front_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_o2zn0oys --params-file /tmp/launch_params_2tqmxux6 --params-file /tmp/launch_params__vndrobx --params-file /tmp/launch_params_zupf9ef8 --params-file /tmp/launch_params_re65shx6 --params-file /tmp/launch_params__gs9ijam -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  5932:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_left -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_492a9iir 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  5989:
+    command: /home/autoware/autoware.proj/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node --ros-args -r __node=pe_ars408_node -r __ns=/sensing/radar/rear_center -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_takudo0u --params-file /tmp/launch_params_4o4esw7a --params-file /tmp/launch_params_7k0eq_au --params-file /tmp/launch_params_uj0957nf --params-file /tmp/launch_params_0y8jq6ov --params-file /tmp/launch_params_z89v_ycz -r ~/input/frame=from_can_bus -r ~/output/objects=objects_raw -r ~/output/scan=scan_raw 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  6063:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/rear_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_620y69bo 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  6149:
+    command: /opt/ros/humble/lib/ros2_socketcan/socket_can_receiver_node_exe --ros-args -r __node=socket_can_receiver -r __ns=/sensing/radar/front_right -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_w9k07z13 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  6324:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container --ros-args -r __node=euclidean_cluster_container -r __ns=/perception/object_recognition/detection/clustering -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  6561:
+    command: /home/autoware/autoware.proj/install/detected_object_validation/lib/detected_object_validation/object_lanelet_filter_node --ros-args -r __node=object_lanelet_filter -r __ns=/perception/object_recognition/detection -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /home/autoware/autoware.proj/install/autoware_launch/share/autoware_launch/config/perception/object_recognition/detection/object_filter/object_lanelet_filter.param.yaml -r input/vector_map=/map/vector_map -r input/object=objects_before_filter -r output/object=objects 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  6706:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container --ros-args -r __node=velocity_smoother_container -r __ns=/planning/scenario_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  6771:
+    command: /home/autoware/autoware.proj/install/awapi_awiv_adapter/lib/awapi_awiv_adapter/awapi_awiv_adapter --ros-args -r __ns=/awapi -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 --params-file /tmp/launch_params_psp25ca9 --params-file /tmp/launch_params_8mjn6zob --params-file /tmp/launch_params_8c_uerm5 --params-file /tmp/launch_params_j2eut3w_ --params-file /tmp/launch_params_vh8ai50f --params-file /tmp/launch_params_e2g94c4v --params-file /tmp/launch_params_zkfsxiux -r input/steer=/vehicle/status/steering_status -r input/vehicle_cmd=/control/command/control_cmd -r input/turn_indicators=/vehicle/status/turn_indicators_status -r input/hazard_lights=/vehicle/status/hazard_lights_status -r input/odometry=/localization/kinematic_state -r input/gear=/vehicle/status/gear_status -r input/battery=/vehicle/status/battery_charge -r input/nav_sat=/sensing/gnss/ublox/nav_sat_fix -r input/autoware_state=/api/iv_msgs/autoware/state -r input/control_mode=/vehicle/status/control_mode -r input/gate_mode=/control/current_gate_mode -r input/mrm_state=/system/fail_safe/mrm_state -r input/hazard_status=/system/emergency/hazard_status -r input/stop_reason=/planning/scenario_planning/status/stop_reasons -r input/v2x_command=/planning/scenario_planning/status/infrastructure_commands -r input/v2x_state=/system/v2x/virtual_traffic_light_states -r input/diagnostics=/diagnostics_agg -r input/lane_change_available=/planning/scenario_planning/lane_driving/lane_change_available -r input/lane_change_ready=/planning/scenario_planning/lane_driving/lane_change_ready -r input/lane_change_candidate_path=/planning/scenario_planning/lane_driving/lane_change_candidate_path -r input/obstacle_avoid_ready=/planning/scenario_planning/lane_driving/obstacle_avoidance_ready -r input/obstacle_avoid_candidate_path=/planning/scenario_planning/lane_driving/obstacle_avoidance_candidate_trajectory -r input/max_velocity=vehicle/put/velocity -r input/current_max_velocity=/planning/scenario_planning/current_max_velocity -r input/temporary_stop=vehicle/put/stop -r input/autoware_trajectory=/planning/scenario_planning/trajectory -r output/vehicle_status=vehicle/get/status -r output/autoware_status=autoware/get/status -r output/lane_change_status=lane_change/get/status -r output/obstacle_avoid_status=object_avoidance/get/status -r output/max_velocity=/planning/scenario_planning/max_velocity_default -r output/v2x_command=/awapi/tmp/infrastructure_commands -r output/v2x_state=/awapi/tmp/virtual_traffic_light_states 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  7046:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args --log-level autoware_api.external.rtc_controller.container=warn --ros-args -r __node=container -r __ns=/autoware_api/external/rtc_controller -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 12.500
+    time-lag (ns):
+      value: 3136175849
+  13:
+    command:  ksoftirqd/0
+    usage:
+      value: 6.200
+    time-lag (ns):
+      value: 3136175849
+  100:
+    command:  ksoftirqd/14
+    usage:
+      value: 6.200
+    time-lag (ns):
+      value: 3136175849
+  3268:
+    command: /home/autoware/autoware.proj/install/foxglove_bridge/lib/foxglove_bridge/foxglove_bridge --ros-args --params-file /tmp/launch_params_qsxh1w9r --params-file /tmp/launch_params_iz1i_8w_ --params-file /tmp/launch_params_i2u8na4s --params-file /tmp/launch_params_c335i2a_ --params-file /tmp/launch_params_h7nvztry --params-file /tmp/launch_params_ud_3qr50 --params-file /tmp/launch_params__yn0n4nv --params-file /tmp/launch_params_ol8p4znr --params-file /tmp/launch_params_6ht0bx4p --params-file /tmp/launch_params_5bkgbggv --params-file /tmp/launch_params_d6tv7lvc --params-file /tmp/launch_params_j29oq6wv --params-file /tmp/launch_params_1oxveft1 --params-file /tmp/launch_params_sg0trgzj --params-file /tmp/launch_params_kfdjyvjk --params-file /tmp/launch_params_tnitj9y_ --params-file /tmp/launch_params_xspn6c3e 
+    usage:
+      value: 6.200
+    time-lag (ns):
+      value: 3136175849
+  3504:
+    command: /opt/ota/iot-logger/venv/bin/python3 /opt/ota/iot-logger/venv/bin/iot_logging_server 
+    usage:
+      value: 6.200
+    time-lag (ns):
+      value: 3136175849
+  4606:
+    command: python /greengrass/v2/work/fms-prd-edge-autowaret4b-edge-remote-control/work/worker/RdmBcLG3X0dTSB3n4QVZWxEyvhTwWPWzkLXd5baJD4c/lambda/handler.py 
+    usage:
+      value: 6.200
+    time-lag (ns):
+      value: 3136175849
+  5164:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pointcloud_container -r __ns=/ -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 200.000
+    time-lag (ns):
+      value: 4168833993
+  6744:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=motion_planning_container -r __ns=/planning/scenario_planning/lane_driving/motion_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 76.500
+    time-lag (ns):
+      value: 4168833993
+  6724:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt  --ros-args -r __node=behavior_planning_container -r __ns=/planning/scenario_planning/lane_driving/behavior_planning -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 70.600
+    time-lag (ns):
+      value: 4168833993
+  6767:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=control_container -r __ns=/control -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 47.100
+    time-lag (ns):
+      value: 4168833993
+  5491:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/front_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 41.200
+    time-lag (ns):
+      value: 4168833993
+  5619:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/right_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 41.200
+    time-lag (ns):
+      value: 4168833993
+  5510:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/left_upper/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 35.300
+    time-lag (ns):
+      value: 4168833993
+  5704:
+    command: /home/autoware/autoware.proj/install/rclcpp_components/lib/rclcpp_components/component_container_mt --ros-args -r __node=pandar_node_container -r __ns=/sensing/lidar/rear_lower/pointcloud_preprocessor -p use_sim_time=False -p wheel_radius=0.3725 -p wheel_width=0.215 -p wheel_base=4.76 -p wheel_tread=1.754 -p front_overhang=0.9154 -p rear_overhang=1.498 -p left_overhang=0.273 -p right_overhang=0.273 -p vehicle_height=3.06 -p max_steer_angle=0.698 
+    usage:
+      value: 35.300
+    time-lag (ns):
+      value: 4168833993

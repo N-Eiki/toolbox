@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>System Monitor Report</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>System Monitor Report</h1>
+    <h2>Information</h2>
+    <div>
+      <table border="1" style="margin-bottom: 10px">
+        <tr>
+          <th width="300px">This report was created at</th>
+          <td>2024-08-09 17:27:01.777511</td>
+        </tr>
+        <tr>
+          <th width="300px">This report was created by</th>
+          <td>
+            <a href="https://github.com/tier4/autoware.benchmark_tools/tree/main/tools/system_monitor_tracing">
+              system monitor tracing
+            </a>
+            ver.2.1.0
+          </td>
+        </tr>
+        <tr>
+          <th width="300px">Hardware name</th>
+          <td>
+             autoware <br />
+            
+          </td>
+        </tr>
+        <tr>
+          <th width="300px">Source rosbag file(s)</th>
+          <td>
+             0388f3fc-7d88-4520-b78f-b90befa92094_2024-08-06-11-15-19_p0900_3.db3 <br />
+            
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    
+    <h1 id="autoware">autoware</h1>
+
+    <h2>Evaluation</h2>
+    <div>
+      <h4>Count</h4>
+      <table border="1" style="margin-bottom: 10px">
+        <thead>
+          <tr>
+            <th width="90px">OK</th>
+            <th width="90px">Warning</th>
+            <th width="90px">Error</th>
+            <th width="90px">Invalid</th>
+          </tr>
+        </thead>
+        <tbody align="center">
+          <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>3</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+      <h4>Evaluation details</h4>
+      <table border="1" style="margin-bottom: 10px">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Result</th>
+            <th>Name</th>
+            <th>Reason</th>
+          </tr>
+        </thead>
+        <tbody>
+           
+          </tr>
+
+          <tr bgcolor="orangered">
+            
+            <td>eval0000</td>
+            <td>ERROR</td>
+            <td>Simple evaluation for CPU Usage (All)</td>
+            <td>Error. One or more criteria are not acceptable. mean(85.46130434782609) is larger than acceptable 40. peak(94.39) is smaller than desired 100.</td>
+          </tr>
+           
+          </tr>
+
+          <tr bgcolor="orangered">
+            
+            <td>eval0001</td>
+            <td>ERROR</td>
+            <td>Simple evaluation for CPU Temperature</td>
+            <td>Error. One or more criteria are not acceptable. mean(71.65217391304348) is larger than acceptable 60. peak(73.0)) is smaller than desired 80.</td>
+          </tr>
+           
+          </tr>
+
+          <tr bgcolor="lightgreen">
+            
+            <td>eval0002</td>
+            <td>OK</td>
+            <td>Simple evaluation for Memory Usage (All)</td>
+            <td>OK. All criteria are desired. mean(30.448285714285717)) is smaller than desired 60. peak(30.48)) is smaller than desired 80.</td>
+          </tr>
+           
+          </tr>
+
+          <tr bgcolor="gold">
+            
+            <td>eval0003</td>
+            <td>WARN</td>
+            <td>Simple evaluation for GPU Usage</td>
+            <td>Good enough. All criteria are acceptable. mean(31.114285714285714) is smaller than desired 40. peak(36.0)) is smaller than desired 90.</td>
+          </tr>
+           
+          </tr>
+
+          <tr bgcolor="orangered">
+            
+            <td>eval0004</td>
+            <td>ERROR</td>
+            <td>Simple evaluation for HDD Usage</td>
+            <td>Error. One or more criteria are not acceptable. mean(93.0) is larger than acceptable 75. peak(93.0) is larger than acceptable 90.</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Details</h2>
+    <ul>
+      <li> <a href=autoware/computing_resource_report.html> computing resource report (CPU, GPU, Memory) </a> </li>
+      <li> <a href=autoware/io_resource_report.html> io_resource_report (Storage, Network) </a> </li>
+      <li> <a href=autoware/process_monitor_report.html> process_monitor_report </a> </li>
+    </ul>
+
+    
+  </body>
+</html>
