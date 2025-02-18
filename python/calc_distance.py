@@ -80,9 +80,22 @@ def main(target_uuid, rosbag_path):
             vel_y.append(obj[5])
             break
     baselink_x, baselink_y, baselink_z = baselink_dict[baselink_topic].mean(axis=0)
-    plt.plot(np.array(pos_x)-baselink_x, label="x distance[m]")
-    plt.plot(np.array(pos_y)-baselink_y, label="y distance[m]")
-    plt.legend()
+
+    fig, ax = plt.subplots(2, 1, figsize=(8, 5))
+    fig.suptitle('title')
+
+    # 最初のサブプロット
+    ax[0].plot(np.array(pos_x) - baselink_x, label="x distance [m]")
+    ax[0].plot(np.array(pos_y) - baselink_y, label="y distance [m]")
+    ax[0].set_title("Position Difference")
+    ax[0].legend()  # 凡例を表示
+
+    # 2番目のサブプロット
+    ax[1].plot(vel_x, label="x velocity [m/s]")
+    ax[1].plot(vel_y, label="y velocity [m/s]")
+    ax[1].set_title("Target Velocicty")
+    ax[1].legend()  # 凡例を表示
+
     plt.show()
 
     import ipdb;ipdb.set_trace()
