@@ -2,6 +2,7 @@
 """
 使い方
 git clone https://github.com/N-Eiki/toolbox
+source ~/autoware.proj/install/setup.bash
 cd ~/toolbox/python
 
 uuidがb8e0のものに対してx, yの距離を描画する
@@ -46,15 +47,11 @@ def parse_predicted_objects(msg):
     obj_data = []
     for obj in msg.objects:
         uuid = obj.object_id.uuid
-        # [TODO]複数ラベルのときの挙動を修正、一番probabilityが高いのがindex=0ならこのままでよいか
         label = obj.classification[0].label
         #xyz position
         pos_x = obj.kinematics.initial_pose_with_covariance.pose.position.x
         pos_y = obj.kinematics.initial_pose_with_covariance.pose.position.y
         pos_z = obj.kinematics.initial_pose_with_covariance.pose.position.z
-
-        vel_x = obj.kinematics.initial_twist_with_covariance.twist.linear.x
-        vel_y = obj.kinematics.initial_twist_with_covariance.twist.linear.y
 
         ang_x = obj.kinematics.initial_twist_with_covariance.twist.angular.x
         ang_y = obj.kinematics.initial_twist_with_covariance.twist.angular.y
@@ -63,14 +60,18 @@ def parse_predicted_objects(msg):
         # acc.x = obj.kinematics.initial_acceleration_with_covariance.accel.x
         # acc.y = obj.kinematics.initial_acceleration_with_covariance.accel.y
         # acc.z = obj.kinematics.initial_acceleration_with_covariance.accel.z
+        twist = obj.kinematics.initial_twist_with_covariance.twist
+        vel = np.sqrt(
+            twist.linear.x * twist.linear.x + twist.linear.y * twist.linear.y +
+            twist.linear.z * twist.linear.z)*3.6 # km/h
         obj_data.append([
             hex(uuid[0])[-2:]+hex(uuid[1])[-2:],
             label,
             pos_x,
             pos_y,
-            vel_x,
-            vel_y,
+            vel
         ])
+    
     return [obj_data]
 
 
@@ -80,7 +81,7 @@ def extract_data(rosbag_path:str, target_uuid: list[str]):
     perception_dict = parse_rosbag(str(rosbag_path), [perception_topic], parse_predicted_objects)
     baselink_dict = parse_rosbag(str(rosbag_path), [baselink_topic], parse_baselink)
     label = None
-    pos_x, pos_y, vel_x, vel_y = [], [], [], []
+    pos_x, pos_y, vel = [], [], []
     for record in perception_dict[perception_topic].values:
         for obj in record[0]:
             label = obj[1]
@@ -88,56 +89,53 @@ def extract_data(rosbag_path:str, target_uuid: list[str]):
                 continue
             pos_x.append(obj[2])
             pos_y.append(obj[3])
-            vel_x.append(obj[4])
-            vel_y.append(obj[5])
+            vel.append(obj[4])
             break
     baselink_x, baselink_y, baselink_z = baselink_dict[baselink_topic].mean(axis=0)
 
     distance_x = np.array(pos_x) - baselink_x
     distance_y = np.array(pos_y) - baselink_y
 
-    return distance_x, distance_y, vel_x, vel_y
+    return distance_x, distance_y, vel
 
 
 
 def main(target_uuid: list[str], rosbag_path: str):
     print(rosbag_path)
-    distance_x, distance_y, vel_x, vel_y = [], [], [], []
+    distance_x, distance_y, vel = [], [], []
     # rosbag_pathが存在するか
     if not os.path.exists(rosbag_path):
         raise ValueError(f"{rosbag_path} is not exists")
     # rosbag_pathがfileか
     elif rosbag_path.endswith(".db3"):
-        distance_x, distance_y, vel_x, vel_y = extract_data(rosbag_path, target_uuid)
+        distance_x, distance_y, vel = extract_data(rosbag_path, target_uuid)
     # rosbag_pathがdirか？
     else:
         data = [f for f in os.listdir(rosbag_path) if f.endswith("db3")]
         for file in data:
             file_path = os.path.join(rosbag_path, file)
-            _distance_x, _distance_y, _vel_x, _vel_y = extract_data(file_path, target_uuid)
+            _distance_x, _distance_y, _vel = extract_data(file_path, target_uuid)
             distance_x = np.append(distance_x, _distance_x)
             distance_y = np.append(distance_y, _distance_y)
-            vel_x = np.append(vel_x, _vel_x)
-            vel_y = np.append(vel_y, _vel_y)
+            vel = np.append(vel, _vel)
             
 
     fig, ax = plt.subplots(2, 1, figsize=(8, 5))
     fig.suptitle('title')
     # 最初のサブプロット
-    ax[0].plot(distance_x, label="x distance [m]")
-    ax[0].plot(distance_y, label="y distance [m]")
+    ax[0].plot(np.arange(0, len(distance_x)/10, 0.1), distance_x, label="x distance [m]")
+    ax[0].plot(np.arange(0, len(distance_y)/10, 0.1),distance_y, label="y distance [m]")
     ax[0].set_title("Position Difference")
     ax[0].legend()  # 凡例を表示
 
     # 2番目のサブプロット
-    ax[1].plot(vel_x, label="x velocity [m/s]")
-    ax[1].plot(vel_y, label="y velocity [m/s]")
+    ax[1].plot(np.arange(0, len(vel)/10, 0.1), vel, label="velocity [km/s]")
+    ax[1].set_ylabel("km/h")
+    ax[1].set_xlabel('sec')
     ax[1].set_title("Target Velocicty")
     ax[1].legend()  # 凡例を表示
 
     plt.show()
-
-    import ipdb;ipdb.set_trace()
 
 if __name__=="__main__":
     args = parse_args()
