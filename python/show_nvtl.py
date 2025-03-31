@@ -4,9 +4,6 @@
 git clone https://github.com/N-Eiki/toolbox
 source ~/autoware.proj/install/setup.bash
 cd ~/toolbox/python
-
-uuidがb8e0のものに対してx, yの距離を描画する
-ただし、baselinkが一定である(egoが移動しない)ことが条件
 python3 show_nvtl.py --rosbag_path=/apth/to/data/79c2eed3-dddd-40e5-b54c-0b3ce38b90fc_2025-02-13-13-57-48_p0900_2.db3
 
 
